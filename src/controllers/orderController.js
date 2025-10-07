@@ -63,7 +63,9 @@ exports.createOrder = async (req, res, next) => {
           (m) => m._id.toString() === item.itemId
         );
 
-        console.log(`Processing item: ${menuItem.name.en}`);
+        console.log(
+          `Processing item: ${menuItem.name.en}, prepStation: ${menuItem.prepStation}`
+        );
 
         // Calculate item subtotal
         const itemSubtotal = item.pricePerUnit * item.quantity;
@@ -121,7 +123,7 @@ exports.createOrder = async (req, res, next) => {
           );
         }
 
-        // ✅ Return processed item WITHOUT prepStation
+        // Return processed item WITH prepStation
         return {
           itemId: item.itemId,
           name: menuItem.name,
@@ -134,6 +136,7 @@ exports.createOrder = async (req, res, next) => {
           autoComplete,
           skipKitchen,
           status: autoComplete ? "ready" : "pending",
+          prepStation: menuItem.prepStation, // Store prepStation from menuItem
         };
       })
     );
@@ -179,18 +182,15 @@ exports.createOrder = async (req, res, next) => {
     if (io) {
       // Determine which stations need this order
       const kitchenItems = processedItems.filter((item) => {
-        const menuItem = menuItems.find(
-          (m) => m._id.toString() === item.itemId
-        );
-        return menuItem.prepStation === "kitchen" && !item.skipKitchen;
+        return item.prepStation === "kitchen" && !item.skipKitchen;
       });
 
       const juiceBarItems = processedItems.filter((item) => {
-        const menuItem = menuItems.find(
-          (m) => m._id.toString() === item.itemId
-        );
-        return menuItem.prepStation === "juicebar" && !item.skipKitchen;
+        return item.prepStation === "juicebar" && !item.skipKitchen;
       });
+
+      console.log(`Kitchen items: ${kitchenItems.length}`);
+      console.log(`Juice bar items: ${juiceBarItems.length}`);
 
       if (kitchenItems.length > 0) {
         io.to("kitchen").emit("new-order", {
@@ -199,7 +199,7 @@ exports.createOrder = async (req, res, next) => {
             items: kitchenItems,
           },
         });
-        console.log(`Sent ${kitchenItems.length} items to kitchen`);
+        console.log(`✅ Sent ${kitchenItems.length} items to kitchen`);
       }
 
       if (juiceBarItems.length > 0) {
@@ -209,7 +209,7 @@ exports.createOrder = async (req, res, next) => {
             items: juiceBarItems,
           },
         });
-        console.log(`Sent ${juiceBarItems.length} items to juice bar`);
+        console.log(`✅ Sent ${juiceBarItems.length} items to juice bar`);
       }
 
       // Emit to owner
@@ -346,7 +346,6 @@ exports.editOrder = async (req, res, next) => {
 
     // If items are being updated, recalculate everything
     if (items) {
-      // Similar processing as createOrder
       const itemIds = items.map((item) => item.itemId);
       const menuItems = await MenuItem.find({ _id: { $in: itemIds } });
 
@@ -372,6 +371,7 @@ exports.editOrder = async (req, res, next) => {
           autoComplete,
           skipKitchen: autoComplete,
           status: autoComplete ? "ready" : "pending",
+          prepStation: menuItem.prepStation,
         };
       });
 
@@ -519,15 +519,15 @@ exports.cancelOrder = async (req, res, next) => {
     } else if (order.status === "confirmed") {
       phase = "confirmed";
       requiresReview = true;
-      wasteCost = order.grandTotal * 0.5; // Estimate 50% waste
+      wasteCost = order.grandTotal * 0.5;
     } else if (order.status === "in-progress") {
       phase = "in_progress";
       requiresReview = true;
-      wasteCost = order.grandTotal * 0.8; // Estimate 80% waste
+      wasteCost = order.grandTotal * 0.8;
     } else if (order.status === "ready") {
       phase = "ready";
       requiresReview = true;
-      wasteCost = order.grandTotal; // Full waste
+      wasteCost = order.grandTotal;
     }
 
     // Update order
@@ -609,44 +609,52 @@ exports.getOrdersForStation = async (req, res, next) => {
   try {
     const station = req.user.role === "kitchen" ? "kitchen" : "juicebar";
 
+    console.log(`=== GET ORDERS FOR STATION: ${station} ===`);
+
     // Get all active orders
     const orders = await Order.find({
       status: { $in: ["pending", "confirmed", "in-progress", "ready"] },
     }).sort({ createdAt: 1 });
 
-    // Filter items by station
-    const filteredOrders = orders.map((order) => {
-      const menuItemIds = order.items.map((item) => item.itemId);
+    console.log(`Found ${orders.length} active orders`);
 
-      return MenuItem.find({ _id: { $in: menuItemIds } }).then((menuItems) => {
+    // Filter orders that have items for this station
+    const filteredOrders = orders
+      .map((order) => {
+        // Filter items by station using prepStation stored in order item
         const stationItems = order.items.filter((item) => {
-          const menuItem = menuItems.find(
-            (m) => m._id.toString() === item.itemId.toString()
-          );
-          return (
-            menuItem && menuItem.prepStation === station && !item.skipKitchen
-          );
+          const matches = item.prepStation === station && !item.skipKitchen;
+          if (matches) {
+            console.log(
+              `Order ${order.orderNumber}: Item ${item.name.en} matches ${station}`
+            );
+          }
+          return matches;
         });
 
         if (stationItems.length > 0) {
+          console.log(
+            `✅ Order ${order.orderNumber} has ${stationItems.length} items for ${station}`
+          );
           return {
             ...order.toObject(),
             items: stationItems,
           };
         }
         return null;
-      });
-    });
+      })
+      .filter((order) => order !== null);
 
-    const resolvedOrders = await Promise.all(filteredOrders);
-    const validOrders = resolvedOrders.filter((order) => order !== null);
+    console.log(`Returning ${filteredOrders.length} orders to ${station}`);
+    console.log("==========================================");
 
     res.status(200).json({
       success: true,
-      count: validOrders.length,
-      data: validOrders,
+      count: filteredOrders.length,
+      data: filteredOrders,
     });
   } catch (error) {
+    console.error("Get station orders error:", error);
     logger.error("Get station orders error:", error);
     next(error);
   }

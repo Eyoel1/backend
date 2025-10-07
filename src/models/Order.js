@@ -61,7 +61,11 @@ const orderItemSchema = new mongoose.Schema({
     enum: ["pending", "in-progress", "ready"],
     default: "pending",
   },
-  // ✅ REMOVED prepStation - we get it from MenuItem instead
+  // Store prepStation for filtering but don't validate with enum
+  prepStation: {
+    type: String,
+    required: false,
+  },
 });
 
 const orderSchema = new mongoose.Schema(
