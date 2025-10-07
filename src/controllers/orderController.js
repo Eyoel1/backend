@@ -713,3 +713,32 @@ exports.getAllOrders = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * ⚠️ TEMPORARY - DELETE ALL ORDERS FOR TESTING
+ * @desc    Delete all orders (CLEANUP)
+ * @route   DELETE /api/orders/cleanup
+ * @access  Private (Owner)
+ */
+exports.deleteAllOrders = async (req, res, next) => {
+  try {
+    console.log("=== DELETING ALL ORDERS ===");
+    console.log("Requested by:", req.user.username);
+
+    const result = await Order.deleteMany({});
+    
+    console.log(`🗑️ Deleted ${result.deletedCount} orders`);
+    
+    logger.info(`All orders deleted by ${req.user.username} (count: ${result.deletedCount})`);
+
+    res.status(200).json({
+      success: true,
+      message: `Successfully deleted ${result.deletedCount} orders`,
+      deletedCount: result.deletedCount,
+    });
+  } catch (error) {
+    console.error("Delete all orders error:", error);
+    logger.error("Delete all orders error:", error);
+    next(error);
+  }
+};
