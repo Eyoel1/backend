@@ -1,0 +1,1555 @@
+2025-10-05 13:08:51 [INFO]: 🚀 Server running on port 3000
+2025-10-05 13:08:51 [INFO]: 📱 Environment: development
+2025-10-05 13:08:51 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 13:08:58 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 13:09:19 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-05 13:09:34 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-05 13:09:34 [INFO]: 🗑️  Clearing existing data...
+2025-10-05 13:09:42 [INFO]: 👤 Creating users...
+2025-10-05 13:09:45 [INFO]: ✅ Created 5 users
+2025-10-05 13:09:45 [INFO]: 📁 Creating categories...
+2025-10-05 13:09:48 [INFO]: ✅ Created 5 categories
+2025-10-05 13:09:48 [INFO]: 🔧 Creating add-ons...
+2025-10-05 13:09:48 [INFO]: ✅ Created 4 add-ons
+2025-10-05 13:09:48 [INFO]: 🍽️  Creating menu items...
+2025-10-05 13:09:48 [INFO]: ✅ Created 6 menu items
+2025-10-05 13:09:48 [INFO]: ⚙️  Creating default settings...
+2025-10-05 13:09:48 [INFO]: ✅ Created default settings
+2025-10-05 13:09:50 [INFO]: 🚀 Server running on port 3000
+2025-10-05 13:09:50 [INFO]: 📱 Environment: development
+2025-10-05 13:09:50 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 13:09:52 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 13:09:55 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-05 13:38:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:38:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:39:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:39:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:40:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:40:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:41:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:41:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:42:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:42:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:43:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:43:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:44:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:44:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:45:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:45:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:46:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:46:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:47:10 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:47:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:49:04 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 13:49:22 [INFO]: POST /api/auth/login
+2025-10-05 13:49:25 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:49:25 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:53:54 [INFO]: POST /api/auth/login
+2025-10-05 13:53:59 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:53:59 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:56:29 [INFO]: GET /api/auth/login
+2025-10-05 13:56:29 [INFO]: GET /favicon.ico
+2025-10-05 13:57:17 [INFO]: POST /api/auth/login
+2025-10-05 13:57:19 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:57:19 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:58:30 [INFO]: 🚀 Server running on port 3000
+2025-10-05 13:58:30 [INFO]: 📱 Environment: development
+2025-10-05 13:58:30 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 13:58:32 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 13:58:34 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 13:58:48 [INFO]: POST /api/auth/login
+2025-10-05 13:58:48 [INFO]: User owner (owner) logged in
+2025-10-05 13:58:49 [INFO]: GET /api/analytics/today
+2025-10-05 13:58:49 [INFO]: 🔌 Client connected: Atx51W5mYoBcybqpAAAB
+2025-10-05 13:58:49 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 13:58:58 [INFO]: GET /api/menu-items
+2025-10-05 13:59:06 [INFO]: GET /api/staff
+2025-10-05 13:59:11 [INFO]: GET /api/categories
+2025-10-05 13:59:16 [INFO]: GET /api/addons
+2025-10-05 13:59:34 [INFO]: POST /api/auth/login
+2025-10-05 13:59:35 [INFO]: User rahel (waitress) logged in
+2025-10-05 13:59:35 [INFO]: GET /api/menu-items/active
+2025-10-05 13:59:35 [INFO]: 🔌 Client connected: qrLB1BgJvHfawtzOAAAD
+2025-10-05 13:59:35 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 13:59:35 [INFO]: GET /api/categories
+2025-10-05 13:59:35 [INFO]: GET /api/addons
+2025-10-05 14:01:05 [INFO]: POST /api/orders
+2025-10-05 14:03:56 [INFO]: GET /api/categories
+2025-10-05 14:03:56 [INFO]: GET /api/menu-items/active
+2025-10-05 14:03:56 [INFO]: GET /api/addons
+2025-10-05 14:05:06 [INFO]: GET /api/addons
+2025-10-05 14:05:06 [INFO]: GET /api/menu-items/active
+2025-10-05 14:05:06 [INFO]: GET /api/categories
+2025-10-05 14:06:49 [INFO]: POST /api/orders
+2025-10-05 14:33:22 [INFO]: GET /api/menu-items/active
+2025-10-05 14:33:22 [INFO]: GET /api/categories
+2025-10-05 14:36:38 [INFO]: 🔌 Client disconnected: qrLB1BgJvHfawtzOAAAD
+2025-10-05 14:36:38 [INFO]: 🔌 Client disconnected: Atx51W5mYoBcybqpAAAB
+2025-10-05 14:37:33 [INFO]: GET /api/categories
+2025-10-05 14:37:33 [INFO]: GET /api/menu-items/active
+2025-10-05 14:38:10 [INFO]: GET /api/menu-items/active
+2025-10-05 14:38:10 [INFO]: GET /api/categories
+2025-10-05 14:57:32 [INFO]: POST /api/auth/login
+2025-10-05 14:57:35 [INFO]: User owner (owner) logged in
+2025-10-05 14:57:35 [INFO]: GET /api/analytics/today
+2025-10-05 14:57:35 [INFO]: 🔌 Client connected: MXwoUs27di0KZBQpAAAF
+2025-10-05 14:57:35 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 14:57:42 [INFO]: GET /api/analytics/today
+2025-10-05 14:57:46 [INFO]: GET /api/analytics/today
+2025-10-05 14:57:49 [INFO]: GET /api/analytics/today
+2025-10-05 14:57:51 [INFO]: GET /api/staff
+2025-10-05 14:58:03 [INFO]: 🔌 Client disconnected: MXwoUs27di0KZBQpAAAF
+2025-10-05 14:59:47 [INFO]: POST /api/auth/login
+2025-10-05 14:59:51 [INFO]: User owner (owner) logged in
+2025-10-05 14:59:52 [INFO]: 🔌 Client connected: XwZzNB5AmQOd8QKIAAAH
+2025-10-05 14:59:52 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 14:59:52 [INFO]: GET /api/analytics/today
+2025-10-05 15:00:23 [INFO]: GET /api/analytics/today
+2025-10-05 15:02:42 [INFO]: GET /api/analytics/today
+2025-10-05 15:03:01 [INFO]: GET /api/analytics/today
+2025-10-05 15:03:02 [INFO]: GET /api/menu-items
+2025-10-05 15:03:11 [INFO]: GET /api/staff
+2025-10-05 15:04:53 [INFO]: GET /api/categories
+2025-10-05 15:04:57 [INFO]: GET /api/addons
+2025-10-05 15:05:14 [INFO]: POST /api/auth/login
+2025-10-05 15:05:16 [INFO]: User rahel (waitress) logged in
+2025-10-05 15:05:16 [INFO]: 🔌 Client connected: vaxruMNz-abql42YAAAJ
+2025-10-05 15:05:16 [INFO]: GET /api/categories
+2025-10-05 15:05:16 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 15:05:16 [INFO]: GET /api/menu-items/active
+2025-10-05 15:09:48 [INFO]: GET /api/categories
+2025-10-05 15:09:48 [INFO]: GET /api/menu-items/active
+2025-10-05 15:14:33 [INFO]: GET /api/categories
+2025-10-05 15:14:33 [INFO]: GET /api/menu-items/active
+2025-10-05 15:15:10 [INFO]: 🔌 Client disconnected: vaxruMNz-abql42YAAAJ
+2025-10-05 15:15:10 [INFO]: 🔌 Client disconnected: XwZzNB5AmQOd8QKIAAAH
+2025-10-05 15:17:01 [INFO]: GET /api/analytics/today
+2025-10-05 15:17:14 [INFO]: POST /api/auth/login
+2025-10-05 15:17:15 [INFO]: User rahel (waitress) logged in
+2025-10-05 15:17:16 [INFO]: GET /api/menu-items/active
+2025-10-05 15:17:16 [INFO]: 🔌 Client connected: z7ST209eQgFmp2yMAAAL
+2025-10-05 15:17:16 [INFO]: GET /api/categories
+2025-10-05 15:17:17 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 15:17:33 [INFO]: POST /api/orders
+2025-10-05 15:22:21 [WARN]: MongoDB disconnected
+2025-10-05 15:26:51 [WARN]: MongoDB disconnected
+2025-10-05 15:30:07 [INFO]: POST /api/orders
+2025-10-05 15:30:11 [INFO]: Order ORD-20251005-0001 created by rahel
+2025-10-05 15:30:11 [INFO]: GET /api/orders/my-active
+2025-10-05 15:30:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:30:26 [INFO]: 🔌 Client disconnected: z7ST209eQgFmp2yMAAAL
+2025-10-05 15:30:32 [INFO]: GET /api/categories
+2025-10-05 15:30:32 [INFO]: GET /api/menu-items/active
+2025-10-05 15:31:34 [WARN]: MongoDB disconnected
+2025-10-05 15:32:14 [INFO]: GET /api/categories
+2025-10-05 15:32:14 [INFO]: GET /api/menu-items/active
+2025-10-05 15:34:37 [INFO]: GET /api/menu-items/active
+2025-10-05 15:34:37 [INFO]: GET /api/categories
+2025-10-05 15:34:41 [INFO]: GET /api/orders/my-active
+2025-10-05 15:34:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:00 [INFO]: POST /api/auth/login
+2025-10-05 15:35:01 [INFO]: User chef (kitchen) logged in
+2025-10-05 15:35:01 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:35:01 [INFO]: 🔌 Client connected: -UElDuuJ4lOdHV6UAAAN
+2025-10-05 15:35:01 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 15:35:01 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 15:35:05 [INFO]: 🔌 Client disconnected: -UElDuuJ4lOdHV6UAAAN
+2025-10-05 15:35:09 [INFO]: POST /api/auth/login
+2025-10-05 15:35:10 [INFO]: User rahel (waitress) logged in
+2025-10-05 15:35:10 [INFO]: 🔌 Client connected: jdszYwxZia8KtgcaAAAP
+2025-10-05 15:35:10 [INFO]: GET /api/menu-items/active
+2025-10-05 15:35:10 [INFO]: GET /api/categories
+2025-10-05 15:35:10 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 15:35:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:23 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:24 [INFO]: POST /api/orders
+2025-10-05 15:35:31 [INFO]: GET /api/categories
+2025-10-05 15:35:31 [INFO]: GET /api/menu-items/active
+2025-10-05 15:35:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:43 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:45 [INFO]: POST /api/orders
+2025-10-05 15:35:48 [INFO]: Order ORD-20251005-0002 created by rahel
+2025-10-05 15:35:48 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:51 [INFO]: GET /api/categories
+2025-10-05 15:35:51 [INFO]: GET /api/menu-items/active
+2025-10-05 15:35:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:35:58 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:03 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:06 [INFO]: POST /api/orders
+2025-10-05 15:36:08 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:09 [INFO]: Order ORD-20251005-0003 created by rahel
+2025-10-05 15:36:09 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:15 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 15:36:18 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:19 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:20 [INFO]: GET /api/menu-items/active
+2025-10-05 15:36:20 [INFO]: GET /api/categories
+2025-10-05 15:36:23 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:28 [INFO]: POST /api/auth/login
+2025-10-05 15:36:28 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:29 [INFO]: User chef (kitchen) logged in
+2025-10-05 15:36:29 [INFO]: 🔌 Client connected: fx95XSSCw2eTbXd0AAAR
+2025-10-05 15:36:29 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:36:29 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 15:36:29 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 15:36:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:38 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:39 [INFO]: PATCH /api/orders/68e26623ba46105670ee522d/status
+2025-10-05 15:36:40 [INFO]: Order ORD-20251005-0002 status updated to in-progress
+2025-10-05 15:36:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:36:42 [INFO]: PATCH /api/orders/68e26638ba46105670ee524c/status
+2025-10-05 15:36:43 [INFO]: Order ORD-20251005-0003 status updated to in-progress
+2025-10-05 15:36:43 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:36:43 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:48 [INFO]: PATCH /api/orders/68e26623ba46105670ee522d/status
+2025-10-05 15:36:48 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:49 [INFO]: Order ORD-20251005-0002 status updated to ready
+2025-10-05 15:36:49 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:36:52 [INFO]: PATCH /api/orders/68e26638ba46105670ee524c/status
+2025-10-05 15:36:53 [INFO]: Order ORD-20251005-0003 status updated to ready
+2025-10-05 15:36:53 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:36:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:58 [INFO]: GET /api/orders/my-active
+2025-10-05 15:36:59 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:37:03 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:08 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:18 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:23 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:28 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:29 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:37:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:38 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:43 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:48 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:58 [INFO]: GET /api/orders/my-active
+2025-10-05 15:37:59 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:38:03 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:08 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:18 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:23 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:28 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:29 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:38:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:38 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:43 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:48 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:59 [INFO]: GET /api/orders/my-active
+2025-10-05 15:38:59 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:39:03 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:09 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:13 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:19 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:23 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:29 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:29 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 15:39:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:39 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:43 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:49 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:39:59 [INFO]: GET /api/orders/my-active
+2025-10-05 15:42:22 [INFO]: 🔌 Client disconnected: fx95XSSCw2eTbXd0AAAR
+2025-10-05 15:49:51 [INFO]: 🚀 Server running on port 3000
+2025-10-05 15:49:51 [INFO]: 📱 Environment: development
+2025-10-05 15:49:51 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 15:49:51 [INFO]: 🔌 Client connected: bpBCP4szLaMfrPH4AAAB
+2025-10-05 15:49:51 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 15:49:53 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 15:50:25 [INFO]: POST /api/auth/login
+2025-10-05 15:50:26 [INFO]: User owner (owner) logged in
+2025-10-05 15:50:27 [INFO]: 🔌 Client connected: FaS9oPSObBVzZSAoAAAD
+2025-10-05 15:50:27 [INFO]: GET /api/analytics/today
+2025-10-05 15:50:27 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 15:50:36 [INFO]: POST /api/auth/login
+2025-10-05 15:50:37 [INFO]: User owner (owner) logged in
+2025-10-05 15:50:38 [INFO]: 🔌 Client connected: 0nyvx7D9q3RlgZzAAAAF
+2025-10-05 15:50:38 [INFO]: GET /api/analytics/today
+2025-10-05 15:50:38 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 15:50:48 [INFO]: POST /api/auth/login
+2025-10-05 15:50:49 [INFO]: User rahel (waitress) logged in
+2025-10-05 15:50:49 [INFO]: 🔌 Client connected: WZ78ey-cy1OhUB7cAAAH
+2025-10-05 15:50:49 [INFO]: GET /api/menu-items/active
+2025-10-05 15:50:49 [INFO]: GET /api/categories
+2025-10-05 15:50:49 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 15:50:53 [INFO]: GET /api/orders/my-active
+2025-10-05 15:51:32 [INFO]: GET /api/orders/my-active
+2025-10-05 15:51:33 [INFO]: GET /api/orders/my-active
+2025-10-05 15:51:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:51:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:51:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:01 [WARN]: MongoDB disconnected
+2025-10-05 15:52:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:52:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:53:51 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:00 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 15:54:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:21 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:54:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:55:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:14 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 15:56:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:56:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:57:59 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 15:58:06 [INFO]: POST /api/payments
+2025-10-05 15:58:06 [ERROR]: ValidationError: Payment validation failed: paymentMethod: Path `paymentMethod` is required.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 15:58:06 [ERROR]: ValidationError: Payment validation failed: paymentMethod: Path `paymentMethod` is required.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 15:58:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:58:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:58:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:58:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:58:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:58:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:22 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:52 [INFO]: GET /api/orders/my-active
+2025-10-05 15:59:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:00:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:01:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:51 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 16:02:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:02:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:00 [INFO]: POST /api/payments
+2025-10-05 16:03:01 [ERROR]: ValidationError: Payment validation failed: paymentMethod: `transfer` is not a valid enum value for path `paymentMethod`.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 16:03:01 [ERROR]: ValidationError: Payment validation failed: paymentMethod: `transfer` is not a valid enum value for path `paymentMethod`.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 16:03:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:03:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:04:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:05:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:20 [INFO]: GET /api/orders/68e26638ba46105670ee524c
+2025-10-05 16:06:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:25 [INFO]: POST /api/payments
+2025-10-05 16:06:31 [INFO]: Payment processed for order ORD-20251005-0003 by rahel
+2025-10-05 16:06:35 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:49 [INFO]: POST /api/auth/login
+2025-10-05 16:06:50 [INFO]: User owner (owner) logged in
+2025-10-05 16:06:51 [INFO]: GET /api/analytics/today
+2025-10-05 16:06:51 [INFO]: 🔌 Client connected: tkn9B34OqVfMsyGhAAAJ
+2025-10-05 16:06:51 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:06:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:06:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:07:00 [INFO]: GET /api/analytics/today
+2025-10-05 16:07:05 [INFO]: GET /api/menu-items
+2025-10-05 16:07:14 [INFO]: GET /api/staff
+2025-10-05 16:07:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:07:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:07:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:07:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:08:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:08:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:08:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:08:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:09:11 [INFO]: POST /api/auth/login
+2025-10-05 16:09:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:09:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:09:33 [INFO]: User owner (owner) logged in
+2025-10-05 16:09:33 [INFO]: 🔌 Client connected: _FnQbTmOWnlDSrITAAAL
+2025-10-05 16:09:33 [INFO]: GET /api/analytics/today
+2025-10-05 16:09:33 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:09:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:09:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:10:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:10:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:10:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:10:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:11:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:11:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:11:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:11:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:12:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:12:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:12:26 [INFO]: GET /api/menu-items
+2025-10-05 16:12:31 [INFO]: GET /api/analytics/today
+2025-10-05 16:12:34 [INFO]: GET /api/staff
+2025-10-05 16:12:45 [INFO]: GET /api/analytics/today
+2025-10-05 16:12:50 [INFO]: GET /api/analytics/today
+2025-10-05 16:12:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:12:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:13:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:13:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:13:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:13:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:14:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:14:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:14:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:14:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:15:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:15:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:15:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:15:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:16:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:16:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:16:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:16:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:17:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:17:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:17:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:17:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:18:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:18:22 [INFO]: GET /api/orders/my-active
+2025-10-05 16:18:39 [INFO]: 🚀 Server running on port 3000
+2025-10-05 16:18:39 [INFO]: 📱 Environment: development
+2025-10-05 16:18:39 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: g5pzdep3KrtMqNJxAAAB
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: i0f4wTNcwJWYOnuXAAAD
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: 2bj4KgNoklbgyuFKAAAF
+2025-10-05 16:18:40 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:18:40 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 16:18:40 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: hVJd7qPKw_3YUgGTAAAH
+2025-10-05 16:18:40 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: x4r19Yu0LXqeDDJaAAAJ
+2025-10-05 16:18:40 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 16:18:40 [INFO]: 🔌 Client connected: AFACCFtcryIgyhu_AAAL
+2025-10-05 16:18:40 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:18:41 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 16:18:43 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 16:18:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:18:52 [INFO]: GET /api/orders/my-active
+2025-10-05 16:19:16 [INFO]: GET /api/orders/my-active
+2025-10-05 16:19:16 [INFO]: GET /api/orders/my-active
+2025-10-05 16:19:26 [INFO]: POST /api/auth/login
+2025-10-05 16:19:29 [INFO]: User rahel (waitress) logged in
+2025-10-05 16:19:29 [INFO]: 🔌 Client connected: m3Qe7ftS0uYHwQZHAAAN
+2025-10-05 16:19:29 [INFO]: GET /api/menu-items/active
+2025-10-05 16:19:29 [INFO]: GET /api/categories
+2025-10-05 16:19:29 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 16:19:55 [INFO]: POST /api/orders
+2025-10-05 16:19:58 [INFO]: Order ORD-20251005-0004 created by rahel
+2025-10-05 16:19:59 [INFO]: GET /api/orders/my-active
+2025-10-05 16:20:02 [INFO]: GET /api/menu-items/active
+2025-10-05 16:20:02 [INFO]: GET /api/categories
+2025-10-05 16:20:12 [INFO]: POST /api/auth/login
+2025-10-05 16:20:14 [INFO]: User owner (owner) logged in
+2025-10-05 16:20:14 [INFO]: GET /api/analytics/today
+2025-10-05 16:20:14 [INFO]: 🔌 Client connected: VhaoVDyNPRnOrP4fAAAP
+2025-10-05 16:20:14 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 16:20:22 [INFO]: GET /api/menu-items
+2025-10-05 16:20:30 [INFO]: GET /api/staff
+2025-10-05 16:20:36 [INFO]: GET /api/categories
+2025-10-05 16:28:59 [INFO]: GET /api/menu-items
+2025-10-05 16:28:59 [INFO]: GET /api/categories
+2025-10-05 16:32:58 [INFO]: GET /api/menu-items
+2025-10-05 16:32:58 [INFO]: GET /api/categories
+2025-10-05 17:15:11 [INFO]: GET /api/categories
+2025-10-05 17:15:11 [INFO]: GET /api/categories
+2025-10-05 17:15:11 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:11 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:11 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:15 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:16 [INFO]: GET /api/categories
+2025-10-05 17:15:17 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:17 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:17 [INFO]: GET /api/categories
+2025-10-05 17:15:19 [INFO]: GET /api/menu-items
+2025-10-05 17:15:19 [INFO]: GET /api/analytics/today
+2025-10-05 17:15:19 [INFO]: GET /api/categories
+2025-10-05 17:15:20 [INFO]: GET /api/categories
+2025-10-05 17:15:20 [INFO]: GET /api/staff
+2025-10-05 17:15:35 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:35 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:35 [INFO]: GET /api/categories
+2025-10-05 17:15:35 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:35 [INFO]: GET /api/categories
+2025-10-05 17:15:36 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:36 [INFO]: GET /api/categories
+2025-10-05 17:15:37 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:37 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:37 [INFO]: GET /api/categories
+2025-10-05 17:15:37 [INFO]: GET /api/analytics/today
+2025-10-05 17:15:38 [INFO]: GET /api/menu-items
+2025-10-05 17:15:38 [INFO]: GET /api/staff
+2025-10-05 17:15:38 [INFO]: GET /api/categories
+2025-10-05 17:15:39 [INFO]: GET /api/categories
+2025-10-05 17:15:58 [INFO]: GET /api/categories
+2025-10-05 17:15:58 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:58 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:58 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:58 [INFO]: GET /api/categories
+2025-10-05 17:15:59 [INFO]: GET /api/menu-items/active
+2025-10-05 17:15:59 [INFO]: GET /api/categories
+2025-10-05 17:15:59 [INFO]: GET /api/orders/my-active
+2025-10-05 17:15:59 [INFO]: GET /api/menu-items/active
+2025-10-05 17:16:00 [INFO]: GET /api/categories
+2025-10-05 17:16:00 [INFO]: GET /api/menu-items
+2025-10-05 17:16:00 [INFO]: GET /api/analytics/today
+2025-10-05 17:16:00 [INFO]: GET /api/categories
+2025-10-05 17:16:01 [INFO]: GET /api/staff
+2025-10-05 17:16:01 [INFO]: GET /api/categories
+2025-10-05 17:21:58 [INFO]: GET /api/menu-items/active
+2025-10-05 17:21:58 [INFO]: GET /api/menu-items/active
+2025-10-05 17:21:58 [INFO]: GET /api/categories
+2025-10-05 17:21:58 [INFO]: GET /api/orders/my-active
+2025-10-05 17:21:58 [INFO]: GET /api/categories
+2025-10-05 17:22:02 [INFO]: GET /api/menu-items/active
+2025-10-05 17:22:02 [INFO]: GET /api/categories
+2025-10-05 17:22:03 [INFO]: GET /api/orders/my-active
+2025-10-05 17:22:03 [INFO]: GET /api/menu-items/active
+2025-10-05 17:22:03 [INFO]: GET /api/categories
+2025-10-05 17:22:03 [INFO]: GET /api/analytics/today
+2025-10-05 17:22:04 [INFO]: GET /api/menu-items
+2025-10-05 17:22:04 [INFO]: GET /api/categories
+2025-10-05 17:22:06 [INFO]: GET /api/staff
+2025-10-05 17:22:06 [INFO]: GET /api/categories
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: VhaoVDyNPRnOrP4fAAAP
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: i0f4wTNcwJWYOnuXAAAD
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: 2bj4KgNoklbgyuFKAAAF
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: AFACCFtcryIgyhu_AAAL
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: g5pzdep3KrtMqNJxAAAB
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: hVJd7qPKw_3YUgGTAAAH
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: x4r19Yu0LXqeDDJaAAAJ
+2025-10-05 17:31:04 [INFO]: 🔌 Client disconnected: m3Qe7ftS0uYHwQZHAAAN
+2025-10-05 17:32:26 [INFO]: GET /api/analytics/today
+2025-10-05 17:32:32 [INFO]: GET /api/menu-items
+2025-10-05 17:32:32 [INFO]: GET /api/categories
+2025-10-05 17:36:24 [INFO]: GET /api/menu-items
+2025-10-05 17:36:24 [INFO]: GET /api/categories
+2025-10-05 17:41:48 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:50 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:51 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:51 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:51 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:54 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:54 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:41:54 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:54 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:54 [INFO]: GET /api/menu-items
+2025-10-05 17:41:54 [INFO]: GET /api/categories
+2025-10-05 17:41:55 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:55 [INFO]: GET /api/menu-items
+2025-10-05 17:41:55 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:55 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:41:55 [INFO]: GET /api/categories
+2025-10-05 17:41:55 [INFO]: GET /api/menu-items
+2025-10-05 17:41:58 [INFO]: GET /api/categories
+2025-10-05 17:41:59 [INFO]: GET /api/menu-items
+2025-10-05 17:42:01 [INFO]: GET /api/categories
+2025-10-05 17:42:01 [INFO]: GET /api/menu-items
+2025-10-05 17:42:01 [INFO]: GET /api/categories
+2025-10-05 17:42:01 [INFO]: GET /api/menu-items
+2025-10-05 17:42:01 [INFO]: GET /api/categories
+2025-10-05 17:43:08 [INFO]: POST /api/menu-items
+2025-10-05 17:43:09 [INFO]: Menu item dsa created by owner
+2025-10-05 17:43:09 [INFO]: GET /api/menu-items
+2025-10-05 17:43:09 [INFO]: GET /api/categories
+2025-10-05 17:43:30 [INFO]: POST /api/auth/login
+2025-10-05 17:43:31 [INFO]: User rahel (waitress) logged in
+2025-10-05 17:43:31 [INFO]: GET /api/categories
+2025-10-05 17:43:31 [INFO]: GET /api/menu-items/active
+2025-10-05 17:43:31 [INFO]: 🔌 Client connected: 4EmalGW2qnut_peNAAAR
+2025-10-05 17:43:31 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 17:43:54 [INFO]: POST /api/auth/login
+2025-10-05 17:43:55 [INFO]: User owner (owner) logged in
+2025-10-05 17:43:56 [INFO]: 🔌 Client connected: e_Q6vGAQAC_A02AUAAAT
+2025-10-05 17:43:56 [INFO]: GET /api/analytics/today
+2025-10-05 17:43:56 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 17:44:02 [INFO]: GET /api/menu-items
+2025-10-05 17:44:02 [INFO]: GET /api/categories
+2025-10-05 17:46:13 [INFO]: GET /api/analytics/today
+2025-10-05 17:46:27 [INFO]: POST /api/auth/login
+2025-10-05 17:46:28 [INFO]: User rahel (waitress) logged in
+2025-10-05 17:46:28 [INFO]: GET /api/menu-items/active
+2025-10-05 17:46:28 [INFO]: 🔌 Client connected: Y4xdyIvLg7ma-IsSAAAV
+2025-10-05 17:46:28 [INFO]: GET /api/categories
+2025-10-05 17:46:28 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 17:46:43 [INFO]: POST /api/auth/login
+2025-10-05 17:46:44 [INFO]: User owner (owner) logged in
+2025-10-05 17:46:44 [INFO]: 🔌 Client connected: OnU1OmOXa9BCq_6_AAAX
+2025-10-05 17:46:44 [INFO]: GET /api/analytics/today
+2025-10-05 17:46:45 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 17:48:06 [INFO]: GET /api/menu-items
+2025-10-05 17:48:06 [INFO]: GET /api/categories
+2025-10-05 17:48:06 [WARN]: MongoDB disconnected
+2025-10-05 17:48:35 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:48:36 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:48:36 [INFO]: GET /api/menu-items
+2025-10-05 17:48:36 [INFO]: GET /api/categories
+2025-10-05 17:48:49 [INFO]: POST /api/auth/login
+2025-10-05 17:48:50 [INFO]: User rahel (waitress) logged in
+2025-10-05 17:48:50 [INFO]: 🔌 Client connected: HO7ShATNIeR5veMGAAAZ
+2025-10-05 17:48:50 [INFO]: GET /api/menu-items/active
+2025-10-05 17:48:50 [INFO]: GET /api/categories
+2025-10-05 17:48:50 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 17:55:25 [INFO]: POST /api/auth/login
+2025-10-05 17:55:29 [INFO]: User owner (owner) logged in
+2025-10-05 17:55:30 [INFO]: 🔌 Client connected: eqakoEijMYvLban6AAAb
+2025-10-05 17:55:30 [INFO]: GET /api/analytics/today
+2025-10-05 17:55:30 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 17:55:34 [INFO]: GET /api/categories
+2025-10-05 17:55:34 [INFO]: GET /api/menu-items
+2025-10-05 17:55:59 [INFO]: PATCH /api/menu-items/68e243ecb03b59640edb0065
+2025-10-05 17:56:01 [INFO]: Menu item Bottled Water updated by owner
+2025-10-05 17:56:01 [INFO]: GET /api/menu-items
+2025-10-05 17:56:01 [INFO]: GET /api/categories
+2025-10-05 17:56:50 [INFO]: POST /api/menu-items
+2025-10-05 17:56:52 [INFO]: Menu item asd created by owner
+2025-10-05 17:56:52 [INFO]: GET /api/menu-items
+2025-10-05 17:56:52 [INFO]: GET /api/categories
+2025-10-05 18:00:54 [INFO]: 🚀 Server running on port 3000
+2025-10-05 18:00:54 [INFO]: 📱 Environment: development
+2025-10-05 18:00:54 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 18:00:54 [INFO]: 🔌 Client connected: VusKz34gWxf2jHanAAAB
+2025-10-05 18:00:54 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 18:00:54 [INFO]: 🔌 Client connected: 1Oo3rSoSw4iEVfT8AAAD
+2025-10-05 18:00:54 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 18:00:55 [INFO]: 🔌 Client connected: Blt9mfsgU6hdYRzBAAAF
+2025-10-05 18:00:55 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 18:00:56 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 18:00:58 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 18:01:04 [INFO]: 🔌 Client connected: dYxwktAw-tLUnU-KAAAI
+2025-10-05 18:01:04 [INFO]: 🔌 Client connected: qb7coK1xIODw06PBAAAJ
+2025-10-05 18:01:04 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 18:01:04 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 18:01:05 [INFO]: 🔌 Client connected: jD7VxeaOZO1lrE2uAAAL
+2025-10-05 18:01:05 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 18:01:42 [INFO]: PATCH /api/menu-items/68e287335544ad4ee3b91389
+2025-10-05 18:01:43 [INFO]: Menu item asd updated by owner
+2025-10-05 18:01:43 [INFO]: GET /api/menu-items
+2025-10-05 18:01:43 [INFO]: GET /api/categories
+2025-10-05 18:02:07 [INFO]: POST /api/auth/login
+2025-10-05 18:02:09 [INFO]: User owner (owner) logged in
+2025-10-05 18:02:10 [INFO]: GET /api/analytics/today
+2025-10-05 18:02:10 [INFO]: 🔌 Client connected: cxAbikXvYAJHUCN6AAAN
+2025-10-05 18:02:10 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 18:02:20 [INFO]: POST /api/auth/login
+2025-10-05 18:02:21 [INFO]: User rahel (waitress) logged in
+2025-10-05 18:02:22 [INFO]: 🔌 Client connected: VvVku7W5V8PUlP-eAAAP
+2025-10-05 18:02:22 [INFO]: GET /api/menu-items/active
+2025-10-05 18:02:22 [INFO]: GET /api/categories
+2025-10-05 18:02:22 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 18:02:55 [INFO]: POST /api/orders
+2025-10-05 18:05:51 [INFO]: GET /api/menu-items/active
+2025-10-05 18:05:51 [INFO]: GET /api/categories
+2025-10-05 18:06:08 [INFO]: POST /api/orders
+2025-10-05 18:06:30 [INFO]: Order ORD-20251005-0005 created by rahel
+2025-10-05 18:06:31 [INFO]: GET /api/orders/my-active
+2025-10-05 18:06:48 [WARN]: MongoDB disconnected
+2025-10-05 18:13:22 [INFO]: GET /api/menu-items/active
+2025-10-05 18:13:22 [INFO]: GET /api/categories
+2025-10-05 18:13:40 [INFO]: POST /api/auth/login
+2025-10-05 18:13:41 [INFO]: User chef (kitchen) logged in
+2025-10-05 18:13:42 [INFO]: 🔌 Client connected: 84EXvMWMdguOiNjXAAAR
+2025-10-05 18:13:42 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 18:13:42 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 18:13:42 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:02 [INFO]: PATCH /api/orders/68e2707d5544ad4ee3b911cb/status
+2025-10-05 18:14:04 [INFO]: Order ORD-20251005-0004 status updated to in-progress
+2025-10-05 18:14:04 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:07 [INFO]: PATCH /api/orders/68e28976866250443d8ee1b2/status
+2025-10-05 18:14:09 [INFO]: Order ORD-20251005-0005 status updated to in-progress
+2025-10-05 18:14:09 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:12 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:13 [INFO]: PATCH /api/orders/68e28976866250443d8ee1b2/status
+2025-10-05 18:14:14 [INFO]: PATCH /api/orders/68e2707d5544ad4ee3b911cb/status
+2025-10-05 18:14:14 [INFO]: Order ORD-20251005-0005 status updated to ready
+2025-10-05 18:14:15 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:18 [INFO]: Order ORD-20251005-0004 status updated to ready
+2025-10-05 18:14:18 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:19 [INFO]: PATCH /api/orders/68e2707d5544ad4ee3b911cb/status
+2025-10-05 18:14:21 [INFO]: Order ORD-20251005-0004 status updated to ready
+2025-10-05 18:14:21 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 18:14:24 [INFO]: 🔌 Client disconnected: 84EXvMWMdguOiNjXAAAR
+2025-10-05 18:22:47 [WARN]: MongoDB disconnected
+2025-10-05 18:54:11 [INFO]: POST /api/auth/login
+2025-10-05 18:54:14 [INFO]: User owner (owner) logged in
+2025-10-05 18:54:15 [INFO]: 🔌 Client connected: 92i6f-qwQybWcpO1AAAT
+2025-10-05 18:54:15 [INFO]: GET /api/analytics/today
+2025-10-05 18:54:15 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 18:59:33 [INFO]: GET /api/staff
+2025-10-05 19:03:01 [INFO]: GET /api/categories
+2025-10-05 19:03:01 [INFO]: GET /api/categories
+2025-10-05 19:03:01 [INFO]: GET /api/menu-items/active
+2025-10-05 19:03:01 [INFO]: GET /api/menu-items/active
+2025-10-05 19:03:01 [INFO]: GET /api/analytics/today
+2025-10-05 19:03:03 [INFO]: GET /api/users
+2025-10-05 19:13:42 [INFO]: GET /api/menu-items/active
+2025-10-05 19:13:42 [INFO]: GET /api/menu-items/active
+2025-10-05 19:13:42 [INFO]: GET /api/categories
+2025-10-05 19:13:42 [INFO]: GET /api/categories
+2025-10-05 19:13:42 [INFO]: GET /api/analytics/today
+2025-10-05 19:13:44 [INFO]: GET /api/users
+2025-10-05 19:13:55 [INFO]: GET /api/analytics/today
+2025-10-05 19:14:03 [INFO]: GET /api/menu-items
+2025-10-05 19:14:03 [INFO]: GET /api/categories
+2025-10-05 19:14:20 [INFO]: POST /api/auth/login
+2025-10-05 19:14:21 [INFO]: User owner (owner) logged in
+2025-10-05 19:14:21 [INFO]: 🔌 Client connected: oPrVsHxU57kA1vX9AAAV
+2025-10-05 19:14:21 [INFO]: GET /api/analytics/today
+2025-10-05 19:14:21 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:14:28 [INFO]: GET /api/users
+2025-10-05 19:16:28 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:16:28 [INFO]: 📱 Environment: development
+2025-10-05 19:16:28 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: qatFAgZt0XuAo9nAAAAB
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: vSYsyk6nbfeLllcsAAAD
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: mfFjd70lRGDtZmZLAAAF
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: qFzlZgZkEifoztwlAAAH
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: PMjKC6ZPH7D3jipZAAAK
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: wrt-65qTH8Vds_YXAAAL
+2025-10-05 19:16:28 [INFO]: 🔌 Client connected: s8oPHkol3V54RE6WAAAN
+2025-10-05 19:16:29 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:16:30 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:16:31 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:16:31 [INFO]: 📱 Environment: development
+2025-10-05 19:16:31 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:16:31 [INFO]: 🔌 Client connected: vkDpUbVTA50iCftPAAAB
+2025-10-05 19:16:31 [INFO]: 🔌 Client connected: KxARVs8CthlZNYxLAAAE
+2025-10-05 19:16:31 [INFO]: 🔌 Client connected: Eyj7JUBG0vbOXGt9AAAF
+2025-10-05 19:16:32 [INFO]: 🔌 Client connected: 6hK0BASC93lDD1P0AAAH
+2025-10-05 19:16:32 [INFO]: 🔌 Client connected: CtqfZk_HXgr-vMUYAAAJ
+2025-10-05 19:16:32 [INFO]: 🔌 Client connected: DddNi3AWG_5LAxXIAAAL
+2025-10-05 19:16:32 [INFO]: 🔌 Client connected: N8v78MlcSWOk1HrEAAAN
+2025-10-05 19:16:32 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:16:34 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:16:37 [INFO]: 🔌 Client connected: HufKVDZIo0_461VMAAAP
+2025-10-05 19:16:37 [INFO]: 🔌 Client connected: o0mPNcQJAb-Q6TdlAAAR
+2025-10-05 19:16:38 [INFO]: 🔌 Client connected: Tg51hPrj40c0i8sDAAAT
+2025-10-05 19:16:38 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:38 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:38 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:38 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:38 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:39 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:39 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:39 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:54 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:16:54 [INFO]: 📱 Environment: development
+2025-10-05 19:16:54 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:16:54 [INFO]: 🔌 Client connected: -pwa3OzCVWnufe7qAAAB
+2025-10-05 19:16:54 [INFO]: 🔌 Client connected: mliGnP4aNmYicWkTAAAD
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: O9Bq4EE7tOU4gBsAAAAF
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: 59yE3BTzCVCl96q-AAAH
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: 7TgzWOdbWNJt14KLAAAJ
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:55 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: uFzqUPvcds0_7RbEAAAL
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: wWX4qoBxezyL2sS-AAAN
+2025-10-05 19:16:55 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: lYSnq4UkaVl8mqWgAAAP
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: 26mSRUC66VaNrENIAAAS
+2025-10-05 19:16:55 [INFO]: 🔌 Client connected: l6jOT5fmYzTa1ARgAAAT
+2025-10-05 19:16:55 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:16:55 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:16:55 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:16:56 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:17:01 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:17:01 [INFO]: 📱 Environment: development
+2025-10-05 19:17:01 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: y-7hpa0rMGeHWLarAAAC
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: ZvI0u9Vmve2WjoAmAAAD
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: UpiCLg5hTLB25SVRAAAG
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: bRtw1T3O1BhDQ7TLAAAH
+2025-10-05 19:17:01 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: 4MlOP0vVi-_sATJIAAAJ
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: 6epUq7a0r8vzweWDAAAM
+2025-10-05 19:17:01 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: epYYa1jRJ2NaYFw2AAAN
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: HD_QAkrTbclsvbYTAAAP
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: ZlRg8xFfHuQ-WEVwAAAR
+2025-10-05 19:17:01 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:17:01 [INFO]: 🔌 Client connected: gZjFIUpUUht2Miv9AAAT
+2025-10-05 19:17:01 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:17:02 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:17:03 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:19:55 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:19:55 [INFO]: 📱 Environment: development
+2025-10-05 19:19:55 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:19:56 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:19:57 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:20:03 [INFO]: 🔌 Client connected: Z8uMZKdADYTcljuiAAAB
+2025-10-05 19:20:03 [INFO]: 🔌 Client connected: rURSDphLi2BGqPqtAAAD
+2025-10-05 19:20:04 [INFO]: 🔌 Client connected: m2hDqHTRIzIlWa0SAAAF
+2025-10-05 19:20:04 [INFO]: 🔌 Client connected: BiVyD_pC-2ipUENEAAAH
+2025-10-05 19:20:04 [INFO]: 🔌 Client connected: -juWSGv3itEiNwULAAAJ
+2025-10-05 19:20:05 [INFO]: 🔌 Client connected: Y6QheUBmccO28LRJAAAL
+2025-10-05 19:20:06 [INFO]: 🔌 Client connected: W29ZbA9FGeyIFSQUAAAN
+2025-10-05 19:20:06 [INFO]: 🔌 Client connected: TYTqHXfJARBs9r9mAAAP
+2025-10-05 19:20:06 [INFO]: 🔌 Client connected: TcOr3hpCOmncyZitAAAR
+2025-10-05 19:20:06 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:20:06 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:06 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:06 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:20:07 [INFO]: 🔌 Client connected: tKR1UkzB8KNUnxRUAAAT
+2025-10-05 19:20:07 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:21:56 [INFO]: 🚀 Server running on port 3000
+2025-10-05 19:21:56 [INFO]: 📱 Environment: development
+2025-10-05 19:21:56 [INFO]: 🔌 Socket.IO initialized
+2025-10-05 19:21:57 [INFO]: 🔌 Client connected: 55xab6iOvBtcIEXKAAAB
+2025-10-05 19:21:57 [INFO]: ✅ Cloudinary connected successfully
+2025-10-05 19:21:57 [INFO]: 🔌 Client connected: 0nrReU4Imwl7Nwk6AAAD
+2025-10-05 19:21:57 [INFO]: 🔌 Client connected: 758skDLAJLZD2ialAAAF
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: 75r32ep3I3nGiQ_fAAAH
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: d7yBRxsegqWlLWUuAAAJ
+2025-10-05 19:21:58 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: FzjEFRm_fVh_Y_BXAAAL
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: IKsLxax2MmlJXEl7AAAN
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: REeo5urVqDWwcsWGAAAP
+2025-10-05 19:21:58 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:21:58 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:21:58 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:21:58 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:21:58 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:21:58 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:21:58 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:21:58 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:21:58 [INFO]: 🔌 Client connected: rv4H3EZ1AE7g1NYGAAAR
+2025-10-05 19:21:58 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:21:59 [INFO]: 🔌 Client connected: AHyIZNB1hmOzPVcXAAAT
+2025-10-05 19:21:59 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:22:21 [INFO]: GET /api/analytics/today
+2025-10-05 19:22:42 [INFO]: GET /api/categories
+2025-10-05 19:22:42 [INFO]: GET /api/menu-items
+2025-10-05 19:32:59 [INFO]: GET /api/analytics/today
+2025-10-05 19:32:59 [INFO]: GET /api/menu-items/active
+2025-10-05 19:32:59 [INFO]: GET /api/categories
+2025-10-05 19:32:59 [INFO]: GET /api/menu-items/active
+2025-10-05 19:32:59 [INFO]: GET /api/categories
+2025-10-05 19:33:01 [INFO]: GET /api/menu-items
+2025-10-05 19:33:01 [INFO]: GET /api/categories
+2025-10-05 19:33:01 [INFO]: GET /api/staff
+2025-10-05 19:36:43 [INFO]: GET /api/staff
+2025-10-05 19:37:14 [INFO]: POST /api/staff
+2025-10-05 19:38:56 [INFO]: POST /api/staff
+2025-10-05 19:39:03 [INFO]: POST /api/staff
+2025-10-05 19:42:17 [INFO]: GET /api/staff
+2025-10-05 19:42:19 [INFO]: POST /api/staff
+2025-10-05 19:42:36 [INFO]: POST /api/staff
+2025-10-05 19:42:37 [INFO]: Staff member egresponse (juicebar) created by owner
+2025-10-05 19:42:37 [INFO]: GET /api/staff
+2025-10-05 19:42:41 [INFO]: GET /api/categories
+2025-10-05 19:42:53 [INFO]: GET /api/addons
+2025-10-05 19:43:28 [WARN]: MongoDB disconnected
+2025-10-05 19:51:34 [INFO]: GET /api/analytics/today
+2025-10-05 19:52:47 [INFO]: POST /api/auth/login
+2025-10-05 19:52:48 [INFO]: User rahel (waitress) logged in
+2025-10-05 19:52:59 [INFO]: 🔌 Client connected: AyqUnU6TrukZJ7hZAAAV
+2025-10-05 19:52:59 [INFO]: GET /api/menu-items/active
+2025-10-05 19:52:59 [INFO]: GET /api/categories
+2025-10-05 19:52:59 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:53:29 [INFO]: POST /api/orders
+2025-10-05 19:53:30 [INFO]: Order ORD-20251005-0006 created by rahel
+2025-10-05 19:53:36 [INFO]: GET /api/orders/my-active
+2025-10-05 19:55:39 [INFO]: GET /api/categories
+2025-10-05 19:55:39 [INFO]: GET /api/menu-items/active
+2025-10-05 19:55:50 [INFO]: POST /api/auth/login
+2025-10-05 19:55:51 [INFO]: User chef (kitchen) logged in
+2025-10-05 19:55:52 [INFO]: 🔌 Client connected: yDrtjchDuNY_g-73AAAX
+2025-10-05 19:55:52 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 19:55:52 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 19:55:52 [INFO]: User 68e243e7b03b59640edb0048 joined room: kitchen
+2025-10-05 19:56:08 [INFO]: PATCH /api/orders/68e2a28a506eba6e2bd11330/status
+2025-10-05 19:56:08 [INFO]: Order ORD-20251005-0006 status updated to in-progress
+2025-10-05 19:56:08 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 19:56:12 [INFO]: PATCH /api/orders/68e2a28a506eba6e2bd11330/status
+2025-10-05 19:56:12 [INFO]: Order ORD-20251005-0006 status updated to ready
+2025-10-05 19:56:12 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 19:56:22 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 19:56:52 [INFO]: GET /api/orders/pending-for-station
+2025-10-05 19:56:53 [INFO]: 🔌 Client disconnected: yDrtjchDuNY_g-73AAAX
+2025-10-05 19:56:58 [INFO]: POST /api/auth/login
+2025-10-05 19:57:00 [INFO]: User rahel (waitress) logged in
+2025-10-05 19:57:01 [INFO]: 🔌 Client connected: TNNseVtWI4K_RrivAAAZ
+2025-10-05 19:57:01 [INFO]: GET /api/menu-items/active
+2025-10-05 19:57:01 [INFO]: GET /api/categories
+2025-10-05 19:57:01 [INFO]: User 68e243e7b03b59640edb0046 joined room: waitress
+2025-10-05 19:57:05 [INFO]: GET /api/orders/my-active
+2025-10-05 19:57:10 [INFO]: GET /api/orders/68e2a28a506eba6e2bd11330
+2025-10-05 19:57:22 [INFO]: POST /api/payments
+2025-10-05 19:57:23 [INFO]: Payment processed for order ORD-20251005-0006 by rahel
+2025-10-05 19:57:49 [INFO]: POST /api/auth/login
+2025-10-05 19:57:50 [INFO]: User owner (owner) logged in
+2025-10-05 19:57:51 [INFO]: GET /api/analytics/today
+2025-10-05 19:57:51 [INFO]: 🔌 Client connected: G9OoD7zHQkiLqjiHAAAb
+2025-10-05 19:57:51 [INFO]: User 68e243e6b03b59640edb0044 joined room: owner
+2025-10-05 19:57:59 [INFO]: GET /api/analytics/today
+2025-10-05 19:58:17 [INFO]: GET /api/analytics/today
+2025-10-05 19:58:19 [INFO]: GET /api/staff
+2025-10-06 08:23:51 [INFO]: 🚀 Server running on port 3000
+2025-10-06 08:23:51 [INFO]: 📱 Environment: development
+2025-10-06 08:23:51 [INFO]: 🔌 Socket.IO initialized
+2025-10-06 08:23:52 [INFO]: ✅ Cloudinary connected successfully
+2025-10-06 08:23:53 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-06 08:27:08 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-06 08:27:08 [INFO]: 🗑️  Clearing existing data...
+2025-10-06 08:27:11 [INFO]: 👤 Creating users...
+2025-10-06 08:27:14 [INFO]: ✅ Created 5 users
+2025-10-06 08:27:14 [INFO]: 📁 Creating categories...
+2025-10-06 08:27:15 [INFO]: ✅ Created 5 categories
+2025-10-06 08:27:15 [INFO]: 🔧 Creating add-ons...
+2025-10-06 08:27:15 [INFO]: ✅ Created 4 add-ons
+2025-10-06 08:27:15 [INFO]: 🍽️  Creating menu items...
+2025-10-06 08:27:15 [INFO]: ✅ Created 6 menu items
+2025-10-06 08:27:15 [INFO]: ⚙️  Creating default settings...
+2025-10-06 08:27:15 [INFO]: ✅ Created default settings
+2025-10-06 08:27:24 [INFO]: 🚀 Server running on port 3000
+2025-10-06 08:27:24 [INFO]: 📱 Environment: development
+2025-10-06 08:27:24 [INFO]: 🔌 Socket.IO initialized
+2025-10-06 08:27:25 [INFO]: ✅ Cloudinary connected successfully
+2025-10-06 08:27:25 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-06 08:44:55 [INFO]: POST /api/auth/login
+2025-10-06 08:44:56 [INFO]: User chef (kitchen) logged in
+2025-10-06 08:44:56 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 08:44:56 [INFO]: 🔌 Client connected: _IvnPX0TPELBIXIyAAAB
+2025-10-06 08:44:56 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 08:44:56 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 08:45:01 [INFO]: 🔌 Client disconnected: _IvnPX0TPELBIXIyAAAB
+2025-10-06 08:45:03 [INFO]: POST /api/auth/login
+2025-10-06 08:45:04 [INFO]: User owner (owner) logged in
+2025-10-06 08:45:04 [INFO]: GET /api/analytics/today
+2025-10-06 08:45:04 [INFO]: 🔌 Client connected: ueGhHpJI4_F86EinAAAD
+2025-10-06 08:45:04 [INFO]: User 68e3532f9075099ea94f3229 joined room: owner
+2025-10-06 08:45:06 [INFO]: GET /api/addons
+2025-10-06 08:45:21 [INFO]: POST /api/addons
+2025-10-06 08:45:22 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 08:45:27 [INFO]: GET /api/categories
+2025-10-06 08:45:29 [INFO]: GET /api/staff
+2025-10-06 08:45:45 [INFO]: PATCH /api/staff/68e353309075099ea94f322e
+2025-10-06 08:45:45 [INFO]: Staff member Juice Bar Staff updated by owner
+2025-10-06 08:45:46 [INFO]: GET /api/staff
+2025-10-06 08:45:47 [INFO]: GET /api/menu-items
+2025-10-06 08:45:47 [INFO]: GET /api/categories
+2025-10-06 08:46:05 [INFO]: POST /api/auth/login
+2025-10-06 08:46:23 [INFO]: POST /api/auth/login
+2025-10-06 08:46:27 [INFO]: POST /api/auth/login
+2025-10-06 08:46:28 [INFO]: User rahel (waitress) logged in
+2025-10-06 08:46:28 [INFO]: GET /api/menu-items/active
+2025-10-06 08:46:28 [INFO]: 🔌 Client connected: i6xOwgW7jgd-TRi9AAAF
+2025-10-06 08:46:28 [INFO]: User 68e353309075099ea94f322b joined room: waitress
+2025-10-06 08:46:28 [INFO]: GET /api/categories
+2025-10-06 08:47:54 [INFO]: 🔌 Client disconnected: ueGhHpJI4_F86EinAAAD
+2025-10-06 08:47:54 [INFO]: 🔌 Client disconnected: i6xOwgW7jgd-TRi9AAAF
+2025-10-06 20:53:08 [WARN]: MongoDB disconnected
+2025-10-06 21:22:55 [INFO]: GET /api/menu-items/active
+2025-10-06 21:22:55 [INFO]: GET /api/categories
+2025-10-06 21:23:06 [INFO]: POST /api/auth/login
+2025-10-06 21:23:07 [INFO]: User owner (owner) logged in
+2025-10-06 21:23:07 [INFO]: GET /api/analytics/today
+2025-10-06 21:23:07 [INFO]: 🔌 Client connected: KhPaBXwU-nURyCd8AAAH
+2025-10-06 21:23:07 [INFO]: User 68e3532f9075099ea94f3229 joined room: owner
+2025-10-06 21:23:14 [INFO]: GET /api/menu-items
+2025-10-06 21:23:14 [INFO]: GET /api/categories
+2025-10-06 21:24:05 [INFO]: POST /api/menu-items
+2025-10-06 21:24:05 [INFO]: Menu item Shiro. created by owner
+2025-10-06 21:24:05 [INFO]: GET /api/menu-items
+2025-10-06 21:24:05 [INFO]: GET /api/categories
+2025-10-06 21:24:17 [INFO]: GET /api/staff
+2025-10-06 21:25:01 [INFO]: POST /api/staff
+2025-10-06 21:25:01 [INFO]: Staff member Eyoel Goshu (waitress) created by owner
+2025-10-06 21:25:02 [INFO]: GET /api/staff
+2025-10-06 21:25:46 [INFO]: DELETE /api/staff/68e4097d3314d0ed846d0bf5
+2025-10-06 21:25:46 [INFO]: Staff member Eyoel Goshu deactivated by owner
+2025-10-06 21:25:46 [INFO]: GET /api/staff
+2025-10-06 21:25:52 [INFO]: DELETE /api/staff/68e4097d3314d0ed846d0bf5
+2025-10-06 21:25:52 [INFO]: Staff member Eyoel Goshu deactivated by owner
+2025-10-06 21:25:52 [INFO]: GET /api/staff
+2025-10-06 21:26:04 [INFO]: GET /api/categories
+2025-10-06 21:26:24 [INFO]: POST /api/categories
+2025-10-06 21:26:24 [INFO]: Category Tea created by owner
+2025-10-06 21:26:25 [INFO]: GET /api/categories
+2025-10-06 21:26:38 [INFO]: GET /api/addons
+2025-10-06 21:26:48 [INFO]: POST /api/addons
+2025-10-06 21:26:49 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:26:55 [INFO]: POST /api/addons
+2025-10-06 21:26:56 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:28:07 [INFO]: POST /api/addons
+2025-10-06 21:28:08 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:28:19 [INFO]: DELETE /api/addons/68e353339075099ea94f323f
+2025-10-06 21:28:20 [ERROR]: ReferenceError: logger is not defined
+    at exports.deleteAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:138:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:28:54 [INFO]: GET /api/analytics/today
+2025-10-06 21:29:40 [INFO]: POST /api/auth/login
+2025-10-06 21:29:40 [INFO]: User marta (waitress) logged in
+2025-10-06 21:29:41 [INFO]: 🔌 Client connected: ea85vsmowo5ub7npAAAJ
+2025-10-06 21:29:41 [INFO]: GET /api/menu-items/active
+2025-10-06 21:29:41 [INFO]: GET /api/categories
+2025-10-06 21:29:41 [INFO]: User 68e353309075099ea94f322c joined room: waitress
+2025-10-06 21:30:51 [INFO]: GET /api/orders/my-active
+2025-10-06 21:30:59 [INFO]: POST /api/orders
+2025-10-06 21:31:03 [INFO]: GET /api/menu-items/active
+2025-10-06 21:31:03 [INFO]: GET /api/categories
+2025-10-06 21:31:10 [INFO]: POST /api/orders
+2025-10-06 21:31:11 [INFO]: Order ORD-20251006-0001 created by marta
+2025-10-06 21:31:12 [INFO]: GET /api/orders/my-active
+2025-10-06 21:31:19 [INFO]: GET /api/orders/68e40aef3314d0ed846d0c45
+2025-10-06 21:31:31 [INFO]: PATCH /api/orders/68e40aef3314d0ed846d0c45/cancel
+2025-10-06 21:31:31 [INFO]: Order ORD-20251006-0001 cancelled by marta (grace_window)
+2025-10-06 21:31:32 [INFO]: GET /api/menu-items/active
+2025-10-06 21:31:32 [INFO]: GET /api/categories
+2025-10-06 21:31:41 [INFO]: POST /api/orders
+2025-10-06 21:31:43 [INFO]: GET /api/menu-items/active
+2025-10-06 21:31:43 [INFO]: GET /api/categories
+2025-10-06 21:31:56 [INFO]: POST /api/orders
+2025-10-06 21:31:57 [INFO]: Order ORD-20251006-0002 created by marta
+2025-10-06 21:31:58 [INFO]: GET /api/orders/my-active
+2025-10-06 21:32:08 [INFO]: GET /api/categories
+2025-10-06 21:32:08 [INFO]: GET /api/menu-items/active
+2025-10-06 21:32:13 [INFO]: POST /api/auth/login
+2025-10-06 21:32:14 [INFO]: User chef (kitchen) logged in
+2025-10-06 21:32:15 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:32:15 [INFO]: 🔌 Client connected: Nb01NURp49X-t1INAAAL
+2025-10-06 21:32:15 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 21:32:15 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 21:32:27 [INFO]: PATCH /api/orders/68e40b1d3314d0ed846d0c69/status
+2025-10-06 21:32:27 [INFO]: Order ORD-20251006-0002 status updated to in-progress
+2025-10-06 21:32:27 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:32:30 [INFO]: PATCH /api/orders/68e40b1d3314d0ed846d0c69/status
+2025-10-06 21:32:31 [INFO]: Order ORD-20251006-0002 status updated to ready
+2025-10-06 21:32:31 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:32:36 [INFO]: 🔌 Client disconnected: Nb01NURp49X-t1INAAAL
+2025-10-06 21:32:42 [INFO]: POST /api/auth/login
+2025-10-06 21:32:43 [INFO]: User owner (owner) logged in
+2025-10-06 21:32:44 [INFO]: 🔌 Client connected: SrC4UWnIBZuv7GE8AAAN
+2025-10-06 21:32:44 [INFO]: GET /api/analytics/today
+2025-10-06 21:32:44 [INFO]: User 68e3532f9075099ea94f3229 joined room: owner
+2025-10-06 21:32:54 [INFO]: GET /api/menu-items
+2025-10-06 21:32:54 [INFO]: GET /api/categories
+2025-10-06 21:32:58 [INFO]: GET /api/staff
+2025-10-06 21:33:02 [INFO]: GET /api/categories
+2025-10-06 21:33:05 [INFO]: GET /api/addons
+2025-10-06 21:33:18 [INFO]: DELETE /api/addons/68e409e93314d0ed846d0c1f
+2025-10-06 21:33:19 [ERROR]: ReferenceError: logger is not defined
+    at exports.deleteAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:138:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:33:49 [INFO]: POST /api/auth/login
+2025-10-06 21:33:50 [INFO]: User rahel (waitress) logged in
+2025-10-06 21:33:51 [INFO]: GET /api/menu-items/active
+2025-10-06 21:33:51 [INFO]: 🔌 Client connected: UH_OkwEENtoiGA4NAAAP
+2025-10-06 21:33:51 [INFO]: GET /api/categories
+2025-10-06 21:33:51 [INFO]: User 68e353309075099ea94f322b joined room: waitress
+2025-10-06 21:33:54 [INFO]: GET /api/orders/my-active
+2025-10-06 21:34:16 [INFO]: POST /api/auth/login
+2025-10-06 21:34:16 [INFO]: User marta (waitress) logged in
+2025-10-06 21:34:17 [INFO]: GET /api/menu-items/active
+2025-10-06 21:34:17 [INFO]: 🔌 Client connected: y_jHyey8FkjoHDulAAAR
+2025-10-06 21:34:17 [INFO]: GET /api/categories
+2025-10-06 21:34:17 [INFO]: User 68e353309075099ea94f322c joined room: waitress
+2025-10-06 21:34:20 [INFO]: GET /api/orders/my-active
+2025-10-06 21:34:28 [INFO]: GET /api/orders/68e40b1d3314d0ed846d0c69
+2025-10-06 21:34:32 [INFO]: POST /api/payments
+2025-10-06 21:34:34 [INFO]: Payment processed for order ORD-20251006-0002 by marta
+2025-10-06 21:34:37 [INFO]: GET /api/orders/my-active
+2025-10-06 21:34:45 [INFO]: POST /api/auth/login
+2025-10-06 21:34:46 [INFO]: User rahel (waitress) logged in
+2025-10-06 21:34:46 [INFO]: GET /api/menu-items/active
+2025-10-06 21:34:46 [INFO]: 🔌 Client connected: MaM5mGF9wSM3ZvEnAAAT
+2025-10-06 21:34:46 [INFO]: GET /api/categories
+2025-10-06 21:34:46 [INFO]: User 68e353309075099ea94f322b joined room: waitress
+2025-10-06 21:34:56 [INFO]: POST /api/orders
+2025-10-06 21:35:01 [INFO]: GET /api/categories
+2025-10-06 21:35:01 [INFO]: GET /api/menu-items/active
+2025-10-06 21:36:56 [INFO]: POST /api/orders
+2025-10-06 21:36:57 [INFO]: Order ORD-20251006-0003 created by rahel
+2025-10-06 21:36:58 [INFO]: GET /api/orders/my-active
+2025-10-06 21:37:00 [INFO]: GET /api/menu-items/active
+2025-10-06 21:37:00 [INFO]: GET /api/categories
+2025-10-06 21:37:10 [INFO]: POST /api/auth/login
+2025-10-06 21:37:11 [INFO]: User chef (kitchen) logged in
+2025-10-06 21:37:11 [INFO]: 🔌 Client connected: 7ePxo46azx1ah-PjAAAV
+2025-10-06 21:37:11 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:37:11 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 21:37:11 [INFO]: User 68e353309075099ea94f322d joined room: kitchen
+2025-10-06 21:37:13 [INFO]: PATCH /api/orders/68e40c493314d0ed846d0cfe/status
+2025-10-06 21:37:13 [INFO]: Order ORD-20251006-0003 status updated to in-progress
+2025-10-06 21:37:14 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:37:19 [INFO]: PATCH /api/orders/68e40c493314d0ed846d0cfe/status
+2025-10-06 21:37:20 [INFO]: Order ORD-20251006-0003 status updated to ready
+2025-10-06 21:37:20 [INFO]: GET /api/orders/pending-for-station
+2025-10-06 21:37:26 [INFO]: 🔌 Client disconnected: 7ePxo46azx1ah-PjAAAV
+2025-10-06 21:37:31 [INFO]: POST /api/auth/login
+2025-10-06 21:37:32 [INFO]: User rahel (waitress) logged in
+2025-10-06 21:37:32 [INFO]: GET /api/categories
+2025-10-06 21:37:33 [INFO]: 🔌 Client connected: ICCo56j3VnqUQEbxAAAX
+2025-10-06 21:37:33 [INFO]: GET /api/menu-items/active
+2025-10-06 21:37:33 [INFO]: User 68e353309075099ea94f322b joined room: waitress
+2025-10-06 21:37:35 [INFO]: GET /api/orders/my-active
+2025-10-06 21:37:38 [INFO]: GET /api/orders/68e40c493314d0ed846d0cfe
+2025-10-06 21:37:42 [INFO]: POST /api/payments
+2025-10-06 21:37:43 [INFO]: Payment processed for order ORD-20251006-0003 by rahel
+2025-10-06 21:37:50 [INFO]: POST /api/auth/login
+2025-10-06 21:37:51 [INFO]: User owner (owner) logged in
+2025-10-06 21:37:53 [INFO]: 🔌 Client connected: 51WmnI3mVd9MmMxgAAAZ
+2025-10-06 21:37:53 [INFO]: GET /api/analytics/today
+2025-10-06 21:37:53 [INFO]: User 68e3532f9075099ea94f3229 joined room: owner
+2025-10-06 21:38:05 [INFO]: GET /api/staff
+2025-10-06 21:38:10 [INFO]: GET /api/addons
+2025-10-06 21:38:12 [INFO]: GET /api/categories
+2025-10-06 21:38:14 [INFO]: GET /api/menu-items
+2025-10-06 21:38:14 [INFO]: GET /api/categories
+2025-10-06 21:38:27 [INFO]: PATCH /api/menu-items/68e409453314d0ed846d0be5
+2025-10-06 21:38:28 [INFO]: Menu item Shiro. updated by owner
+2025-10-06 21:38:28 [INFO]: GET /api/menu-items
+2025-10-06 21:38:28 [INFO]: GET /api/categories
+2025-10-06 21:39:28 [INFO]: DELETE /api/menu-items/68e353339075099ea94f324a
+2025-10-06 21:39:29 [INFO]: Menu item Bottled Water deleted by owner
+2025-10-06 21:39:29 [INFO]: GET /api/categories
+2025-10-06 21:39:29 [INFO]: GET /api/menu-items
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: KhPaBXwU-nURyCd8AAAH
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: UH_OkwEENtoiGA4NAAAP
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: y_jHyey8FkjoHDulAAAR
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: MaM5mGF9wSM3ZvEnAAAT
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: SrC4UWnIBZuv7GE8AAAN
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: ea85vsmowo5ub7npAAAJ
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: ICCo56j3VnqUQEbxAAAX
+2025-10-06 21:55:40 [INFO]: 🔌 Client disconnected: 51WmnI3mVd9MmMxgAAAZ
+2025-10-07 06:05:30 [WARN]: MongoDB disconnected
+2025-10-07 06:05:30 [WARN]: MongoDB disconnected
+2025-10-07 06:07:00 [WARN]: MongoDB disconnected
+2025-10-07 06:12:31 [WARN]: MongoDB disconnected
+2025-10-07 06:55:44 [INFO]: POST /api/auth/login
+2025-10-07 06:55:46 [INFO]: User owner (owner) logged in
+2025-10-07 06:56:07 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 06:56:07 [INFO]: 🗑️  Clearing existing data...
+2025-10-07 06:56:10 [INFO]: 👤 Creating users...
+2025-10-07 06:56:13 [INFO]: ✅ Created 5 users
+2025-10-07 06:56:13 [INFO]: 📁 Creating categories...
+2025-10-07 06:56:13 [INFO]: ✅ Created 5 categories
+2025-10-07 06:56:13 [INFO]: 🔧 Creating add-ons...
+2025-10-07 06:56:13 [INFO]: ✅ Created 4 add-ons
+2025-10-07 06:56:13 [INFO]: 🍽️  Creating menu items...
+2025-10-07 06:56:14 [INFO]: ✅ Created 6 menu items
+2025-10-07 06:56:14 [INFO]: ⚙️  Creating default settings...
+2025-10-07 06:56:14 [INFO]: ✅ Created default settings
+2025-10-07 06:56:23 [INFO]: 🚀 Server running on port 3000
+2025-10-07 06:56:23 [INFO]: 📱 Environment: development
+2025-10-07 06:56:23 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 06:56:23 [INFO]: POST /api/auth/login
+2025-10-07 06:56:24 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 06:56:25 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 06:56:26 [INFO]: User owner (owner) logged in
+2025-10-07 06:56:31 [INFO]: POST /api/auth/login
+2025-10-07 06:56:33 [INFO]: User owner (owner) logged in
+2025-10-07 06:56:38 [INFO]: POST /api/auth/login
+2025-10-07 06:56:40 [INFO]: User rahel (waitress) logged in
+2025-10-07 06:56:55 [INFO]: POST /api/auth/login
+2025-10-07 06:56:56 [INFO]: User owner (owner) logged in
+2025-10-07 06:56:58 [INFO]: POST /api/auth/login
+2025-10-07 06:56:59 [INFO]: User owner (owner) logged in
+2025-10-07 06:57:05 [INFO]: POST /api/auth/login
+2025-10-07 06:57:06 [INFO]: User owner (owner) logged in
+2025-10-07 06:57:21 [INFO]: POST /api/auth/login
+2025-10-07 06:57:22 [INFO]: User owner (owner) logged in
+2025-10-07 06:57:26 [INFO]: POST /api/auth/login
+2025-10-07 06:57:28 [INFO]: User owner (owner) logged in
+2025-10-07 06:57:46 [INFO]: POST /api/auth/login
+2025-10-07 06:57:48 [INFO]: User rahel (waitress) logged in
+2025-10-07 06:58:41 [INFO]: POST /api/auth/login
+2025-10-07 06:58:43 [INFO]: User owner (owner) logged in
+2025-10-07 06:59:51 [WARN]: MongoDB disconnected
+2025-10-07 07:00:54 [INFO]: POST /api/auth/login
+2025-10-07 07:00:56 [INFO]: User owner (owner) logged in
+2025-10-07 07:00:56 [INFO]: GET /api/analytics/today
+2025-10-07 07:00:56 [INFO]: 🔌 Client connected: BhgITOwAHkB5avjpAAAB
+2025-10-07 07:00:56 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:03:00 [INFO]: GET /api/menu-items
+2025-10-07 07:03:00 [INFO]: GET /api/categories
+2025-10-07 07:03:00 [INFO]: GET /api/staff
+2025-10-07 07:03:04 [INFO]: GET /api/categories
+2025-10-07 07:03:05 [INFO]: GET /api/addons
+2025-10-07 07:05:07 [INFO]: GET /api/menu-items
+2025-10-07 07:05:07 [INFO]: GET /api/addons
+2025-10-07 07:05:07 [INFO]: GET /api/categories
+2025-10-07 07:05:07 [INFO]: GET /api/categories
+2025-10-07 07:14:53 [INFO]: 🚀 Server running on port 3000
+2025-10-07 07:14:53 [INFO]: 📱 Environment: development
+2025-10-07 07:14:53 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 07:14:54 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 07:14:55 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 07:14:58 [INFO]: 🔌 Client connected: jXaLgdh3CRyyA9MJAAAB
+2025-10-07 07:14:58 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:16:04 [INFO]: POST /api/auth/login
+2025-10-07 07:16:05 [INFO]: User rahel (waitress) logged in
+2025-10-07 07:16:05 [INFO]: GET /api/menu-items/active
+2025-10-07 07:16:05 [INFO]: 🔌 Client connected: A9e_NuvbZLMrZpgMAAAD
+2025-10-07 07:16:05 [INFO]: GET /api/categories
+2025-10-07 07:16:05 [INFO]: User 68e48f5baffe2cf3863126a6 joined room: waitress
+2025-10-07 07:18:25 [INFO]: GET /api/addons
+2025-10-07 07:18:25 [INFO]: GET /api/menu-items/active
+2025-10-07 07:18:25 [INFO]: GET /api/categories
+2025-10-07 07:18:42 [INFO]: GET /api/categories
+2025-10-07 07:18:42 [INFO]: GET /api/menu-items/active
+2025-10-07 07:18:42 [INFO]: GET /api/addons
+2025-10-07 07:19:26 [INFO]: POST /api/auth/login
+2025-10-07 07:19:27 [INFO]: User owner (owner) logged in
+2025-10-07 07:19:27 [INFO]: 🔌 Client connected: CXhii41QcZSVDRdWAAAF
+2025-10-07 07:19:27 [INFO]: GET /api/analytics/today
+2025-10-07 07:19:27 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:20:03 [INFO]: GET /api/menu-items/active
+2025-10-07 07:20:03 [INFO]: GET /api/categories
+2025-10-07 07:20:03 [INFO]: GET /api/addons
+2025-10-07 07:20:05 [INFO]: GET /api/addons
+2025-10-07 07:20:10 [INFO]: GET /api/categories
+2025-10-07 07:20:10 [INFO]: GET /api/menu-items
+2025-10-07 07:20:26 [INFO]: GET /api/categories
+2025-10-07 07:20:30 [INFO]: GET /api/staff
+2025-10-07 07:21:01 [INFO]: POST /api/auth/login
+2025-10-07 07:21:01 [INFO]: User juice (juicebar) logged in
+2025-10-07 07:21:02 [INFO]: GET /api/orders/pending-for-station
+2025-10-07 07:21:02 [INFO]: 🔌 Client connected: IJ9dF7p2GoqrSQR-AAAH
+2025-10-07 07:21:02 [INFO]: User 68e48f5baffe2cf3863126a9 joined room: juicebar
+2025-10-07 07:21:10 [INFO]: POST /api/auth/login
+2025-10-07 07:21:11 [INFO]: User owner (owner) logged in
+2025-10-07 07:21:11 [INFO]: 🔌 Client connected: 38WVJrLIiW96gxZfAAAJ
+2025-10-07 07:21:11 [INFO]: GET /api/analytics/today
+2025-10-07 07:21:11 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:21:13 [INFO]: GET /api/menu-items
+2025-10-07 07:21:13 [INFO]: GET /api/categories
+2025-10-07 07:21:52 [INFO]: POST /api/menu-items
+2025-10-07 07:21:53 [INFO]: Menu item Mango created by owner
+2025-10-07 07:21:53 [INFO]: GET /api/menu-items
+2025-10-07 07:21:53 [INFO]: GET /api/categories
+2025-10-07 07:22:03 [INFO]: POST /api/auth/login
+2025-10-07 07:22:03 [INFO]: User owner (owner) logged in
+2025-10-07 07:22:04 [INFO]: 🔌 Client connected: ucK-e87MTZtdyiK4AAAL
+2025-10-07 07:22:04 [INFO]: GET /api/analytics/today
+2025-10-07 07:22:04 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:22:07 [INFO]: GET /api/addons
+2025-10-07 07:22:18 [INFO]: POST /api/addons
+2025-10-07 07:22:19 [INFO]: Add-on Bread created by owner
+2025-10-07 07:22:19 [INFO]: GET /api/addons
+2025-10-07 07:22:22 [INFO]: GET /api/menu-items
+2025-10-07 07:22:22 [INFO]: GET /api/categories
+2025-10-07 07:22:26 [INFO]: POST /api/auth/login
+2025-10-07 07:22:27 [INFO]: User rahel (waitress) logged in
+2025-10-07 07:22:28 [INFO]: 🔌 Client connected: ZjZRJbkAMlfOpoRDAAAN
+2025-10-07 07:22:28 [INFO]: GET /api/categories
+2025-10-07 07:22:28 [INFO]: GET /api/addons
+2025-10-07 07:22:28 [INFO]: GET /api/menu-items/active
+2025-10-07 07:22:28 [INFO]: User 68e48f5baffe2cf3863126a6 joined room: waitress
+2025-10-07 07:25:29 [INFO]: POST /api/orders
+2025-10-07 07:25:33 [INFO]: GET /api/menu-items/active
+2025-10-07 07:25:33 [INFO]: GET /api/categories
+2025-10-07 07:25:33 [INFO]: GET /api/addons
+2025-10-07 07:25:40 [INFO]: POST /api/orders
+2025-10-07 07:25:41 [INFO]: Order ORD-20251007-0001 created by rahel
+2025-10-07 07:25:42 [INFO]: GET /api/orders/my-active
+2025-10-07 07:25:45 [INFO]: GET /api/menu-items/active
+2025-10-07 07:25:45 [INFO]: GET /api/categories
+2025-10-07 07:25:45 [INFO]: GET /api/addons
+2025-10-07 07:25:52 [INFO]: POST /api/auth/login
+2025-10-07 07:25:53 [INFO]: User owner (owner) logged in
+2025-10-07 07:25:54 [INFO]: 🔌 Client connected: tXuNzBU9jMRnluTLAAAP
+2025-10-07 07:25:54 [INFO]: GET /api/analytics/today
+2025-10-07 07:25:54 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 07:25:56 [INFO]: GET /api/categories
+2025-10-07 07:25:56 [INFO]: GET /api/menu-items
+2025-10-07 07:26:10 [INFO]: GET /api/addons
+2025-10-07 07:26:17 [INFO]: GET /api/categories
+2025-10-07 07:26:18 [INFO]: GET /api/staff
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: ZjZRJbkAMlfOpoRDAAAN
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: A9e_NuvbZLMrZpgMAAAD
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: tXuNzBU9jMRnluTLAAAP
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: IJ9dF7p2GoqrSQR-AAAH
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: jXaLgdh3CRyyA9MJAAAB
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: 38WVJrLIiW96gxZfAAAJ
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: ucK-e87MTZtdyiK4AAAL
+2025-10-07 07:27:42 [INFO]: 🔌 Client disconnected: CXhii41QcZSVDRdWAAAF
+2025-10-07 09:05:50 [WARN]: MongoDB disconnected
+2025-10-07 09:10:15 [INFO]: GET /api/analytics/today
+2025-10-07 09:10:47 [INFO]: GET /api/addons
+2025-10-07 09:10:59 [INFO]: GET /api/analytics/today
+2025-10-07 09:11:03 [INFO]: GET /api/addons
+2025-10-07 09:11:21 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:11:21 [INFO]: 📱 Environment: development
+2025-10-07 09:11:21 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:11:22 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:11:23 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 09:12:23 [INFO]: GET /api/analytics/today
+2025-10-07 09:12:55 [INFO]: GET /api/addons
+2025-10-07 09:13:05 [INFO]: GET /api/categories
+2025-10-07 09:17:15 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:17:15 [INFO]: 📱 Environment: development
+2025-10-07 09:17:15 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:17:16 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:17:21 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 09:20:09 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:20:09 [INFO]: 📱 Environment: development
+2025-10-07 09:20:09 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:20:10 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:20:10 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 09:20:27 [INFO]: GET /api/analytics/today
+2025-10-07 09:20:38 [INFO]: GET /api/menu-items
+2025-10-07 09:20:38 [INFO]: GET /api/categories
+2025-10-07 09:20:56 [INFO]: POST /api/addons
+2025-10-07 09:20:57 [INFO]: Add-on ፀፀጀጀ created by owner
+2025-10-07 09:20:57 [INFO]: GET /api/addons
+2025-10-07 09:21:20 [INFO]: POST /api/auth/login
+2025-10-07 09:21:40 [INFO]: POST /api/auth/login
+2025-10-07 09:21:40 [INFO]: User juice (juicebar) logged in
+2025-10-07 09:21:40 [INFO]: GET /api/orders/pending-for-station
+2025-10-07 09:21:40 [INFO]: 🔌 Client connected: wlYkrmlpQ6gP2pUNAAAB
+2025-10-07 09:21:40 [INFO]: User 68e48f5baffe2cf3863126a9 joined room: juicebar
+2025-10-07 09:21:45 [INFO]: PATCH /api/orders/68e4964543f562922c7f2b19/status
+2025-10-07 09:21:45 [INFO]: Order ORD-20251007-0001 status updated to in-progress
+2025-10-07 09:21:46 [INFO]: GET /api/orders/pending-for-station
+2025-10-07 09:21:47 [INFO]: PATCH /api/orders/68e4964543f562922c7f2b19/status
+2025-10-07 09:21:47 [INFO]: Order ORD-20251007-0001 status updated to ready
+2025-10-07 09:21:47 [INFO]: GET /api/orders/pending-for-station
+2025-10-07 09:21:53 [INFO]: POST /api/auth/login
+2025-10-07 09:21:54 [INFO]: User owner (owner) logged in
+2025-10-07 09:21:54 [INFO]: 🔌 Client connected: Ia-1YKGdRbZnO0VdAAAD
+2025-10-07 09:21:54 [INFO]: GET /api/analytics/today
+2025-10-07 09:21:54 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 09:21:57 [INFO]: GET /api/menu-items
+2025-10-07 09:21:57 [INFO]: GET /api/categories
+2025-10-07 09:21:58 [INFO]: GET /api/addons
+2025-10-07 09:22:24 [INFO]: GET /api/staff
+2025-10-07 09:22:39 [INFO]: POST /api/auth/login
+2025-10-07 09:22:39 [INFO]: User owner (owner) logged in
+2025-10-07 09:22:39 [INFO]: 🔌 Client connected: pILTCFbS5qh3l61cAAAF
+2025-10-07 09:22:39 [INFO]: GET /api/analytics/today
+2025-10-07 09:22:39 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 09:22:48 [INFO]: POST /api/auth/login
+2025-10-07 09:22:49 [INFO]: User rahel (waitress) logged in
+2025-10-07 09:22:49 [INFO]: GET /api/menu-items/active
+2025-10-07 09:22:49 [INFO]: 🔌 Client connected: 08D-oRY6SWLHUMijAAAH
+2025-10-07 09:22:49 [INFO]: GET /api/categories
+2025-10-07 09:22:49 [INFO]: GET /api/addons
+2025-10-07 09:22:49 [INFO]: User 68e48f5baffe2cf3863126a6 joined room: waitress
+2025-10-07 09:24:34 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:24:34 [INFO]: 📱 Environment: development
+2025-10-07 09:24:34 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:24:34 [INFO]: 🔌 Client connected: pu19kiZkpdWK6gRuAAAB
+2025-10-07 09:24:34 [INFO]: 🔌 Client connected: Za4bInw6WMLgUvpxAAAD
+2025-10-07 09:24:34 [INFO]: User 68e48f5baffe2cf3863126a9 joined room: juicebar
+2025-10-07 09:24:34 [INFO]: User 68e48f5baffe2cf3863126a6 joined room: waitress
+2025-10-07 09:24:34 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:24:35 [INFO]: 🔌 Client connected: 9Ns7dU813umG5QmEAAAF
+2025-10-07 09:24:35 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 09:24:35 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 09:24:36 [INFO]: 🔌 Client connected: TserMrpt_91BMQFDAAAH
+2025-10-07 09:24:36 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 09:25:47 [INFO]: POST /api/auth/login
+2025-10-07 09:25:47 [INFO]: User owner (owner) logged in
+2025-10-07 09:25:47 [INFO]: 🔌 Client connected: WMdpqbq65Z6hW65vAAAJ
+2025-10-07 09:25:47 [INFO]: GET /api/analytics/today
+2025-10-07 09:25:48 [INFO]: User 68e48f5aaffe2cf3863126a4 joined room: owner
+2025-10-07 09:27:15 [WARN]: MongoDB disconnected
+2025-10-07 09:27:15 [INFO]: 🔌 Client disconnected: Za4bInw6WMLgUvpxAAAD
+2025-10-07 09:27:15 [INFO]: 🔌 Client disconnected: WMdpqbq65Z6hW65vAAAJ
+2025-10-07 09:27:15 [INFO]: 🔌 Client disconnected: 9Ns7dU813umG5QmEAAAF
+2025-10-07 09:27:15 [INFO]: 🔌 Client disconnected: pu19kiZkpdWK6gRuAAAB
+2025-10-07 09:27:15 [INFO]: 🔌 Client disconnected: TserMrpt_91BMQFDAAAH
+2025-10-07 09:29:08 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:29:08 [INFO]: 📱 Environment: development
+2025-10-07 09:29:08 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:29:09 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:29:11 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-07 09:29:22 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-07 09:29:22 [INFO]: 🗑️  Clearing existing data...
+2025-10-07 09:29:25 [INFO]: 👤 Creating users...
+2025-10-07 09:29:27 [INFO]: ✅ Created 5 users
+2025-10-07 09:29:27 [INFO]: 📁 Creating categories...
+2025-10-07 09:29:28 [INFO]: ✅ Created 5 categories
+2025-10-07 09:29:28 [INFO]: 🔧 Creating add-ons...
+2025-10-07 09:29:28 [INFO]: ✅ Created 4 add-ons
+2025-10-07 09:29:28 [INFO]: 🍽️  Creating menu items...
+2025-10-07 09:29:29 [INFO]: ✅ Created 6 menu items
+2025-10-07 09:29:29 [INFO]: ⚙️  Creating default settings...
+2025-10-07 09:29:29 [INFO]: ✅ Created default settings
+2025-10-07 09:29:32 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:29:32 [INFO]: 📱 Environment: development
+2025-10-07 09:29:32 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:29:32 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:29:34 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 09:30:05 [WARN]: MongoDB disconnected
+2025-10-07 09:30:26 [WARN]: MongoDB disconnected
+2025-10-07 09:30:46 [WARN]: MongoDB disconnected
+2025-10-07 09:34:25 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:34:25 [INFO]: 📱 Environment: development
+2025-10-07 09:34:25 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:34:26 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:34:27 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-07 09:36:35 [INFO]: GET /api/auth/verify
+2025-10-07 09:36:35 [INFO]: GET /favicon.ico
+2025-10-07 09:38:48 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-00.htmakn1.mongodb.net
+2025-10-07 09:38:48 [INFO]: 🗑️  Clearing existing data...
+2025-10-07 09:38:51 [INFO]: 👤 Creating users...
+2025-10-07 09:38:53 [INFO]: ✅ Created 5 users
+2025-10-07 09:38:53 [INFO]: 📁 Creating categories...
+2025-10-07 09:38:55 [INFO]: ✅ Created 5 categories
+2025-10-07 09:38:55 [INFO]: 🔧 Creating add-ons...
+2025-10-07 09:38:55 [INFO]: ✅ Created 4 add-ons
+2025-10-07 09:38:55 [INFO]: 🍽️  Creating menu items...
+2025-10-07 09:38:55 [INFO]: ✅ Created 6 menu items
+2025-10-07 09:38:55 [INFO]: ⚙️  Creating default settings...
+2025-10-07 09:38:55 [INFO]: ✅ Created default settings
+2025-10-07 09:38:59 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:38:59 [INFO]: 📱 Environment: development
+2025-10-07 09:38:59 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:39:00 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:39:01 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 09:54:58 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 09:54:58 [INFO]: 🗑️  Clearing existing data...
+2025-10-07 09:55:01 [INFO]: 👤 Creating users...
+2025-10-07 09:55:03 [INFO]: ✅ Created 5 users
+2025-10-07 09:55:03 [INFO]: 📁 Creating categories...
+2025-10-07 09:55:04 [INFO]: ✅ Created 5 categories
+2025-10-07 09:55:04 [INFO]: 🔧 Creating add-ons...
+2025-10-07 09:55:04 [INFO]: ✅ Created 4 add-ons
+2025-10-07 09:55:04 [INFO]: 🍽️  Creating menu items...
+2025-10-07 09:55:04 [INFO]: ✅ Created 6 menu items
+2025-10-07 09:55:04 [INFO]: ⚙️  Creating default settings...
+2025-10-07 09:55:05 [INFO]: ✅ Created default settings
+2025-10-07 09:55:10 [INFO]: 🚀 Server running on port 3000
+2025-10-07 09:55:10 [INFO]: 📱 Environment: development
+2025-10-07 09:55:10 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 09:55:11 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 09:55:12 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 10:09:17 [INFO]: 🚀 Server running on port 3000
+2025-10-07 10:09:17 [INFO]: 📱 Environment: development
+2025-10-07 10:09:17 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 10:09:19 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 10:09:20 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 10:13:52 [INFO]: 🚀 Server running on port 3000
+2025-10-07 10:13:52 [INFO]: 📱 Environment: development
+2025-10-07 10:13:52 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 10:13:53 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 10:13:55 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-02.htmakn1.mongodb.net
+2025-10-07 10:14:12 [INFO]: 🚀 Server running on port 3000
+2025-10-07 10:14:12 [INFO]: 📱 Environment: development
+2025-10-07 10:14:12 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 10:14:13 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 10:14:14 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net
+2025-10-07 10:15:03 [INFO]: 🚀 Server running on port 3000
+2025-10-07 10:15:03 [INFO]: 📱 Environment: development
+2025-10-07 10:15:03 [INFO]: 🔌 Socket.IO initialized
+2025-10-07 10:15:04 [INFO]: ✅ Cloudinary connected successfully
+2025-10-07 10:15:05 [INFO]: ✅ MongoDB Connected: ac-jf50usc-shard-00-01.htmakn1.mongodb.net

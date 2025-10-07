@@ -1,0 +1,68 @@
+2025-10-05 13:49:25 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:49:25 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:53:59 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:53:59 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:57:19 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 13:57:19 [ERROR]: ValidationError: User validation failed: pin: Path `pin` (`$2b$12$b3kq3c9Rj0Ypx4ZcJ2vj6ea...`, length 60) is longer than the maximum allowed length (4).
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 15:58:06 [ERROR]: ValidationError: Payment validation failed: paymentMethod: Path `paymentMethod` is required.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 15:58:06 [ERROR]: ValidationError: Payment validation failed: paymentMethod: Path `paymentMethod` is required.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 16:03:01 [ERROR]: ValidationError: Payment validation failed: paymentMethod: `transfer` is not a valid enum value for path `paymentMethod`.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-05 16:03:01 [ERROR]: ValidationError: Payment validation failed: paymentMethod: `transfer` is not a valid enum value for path `paymentMethod`.
+    at Document.invalidate (C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3362:32)
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\document.js:3123:17
+    at C:\React-native-projects\New folder (2)\backend\node_modules\mongoose\lib\schemaType.js:1417:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-10-06 08:45:22 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:26:49 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:26:56 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:28:08 [ERROR]: ReferenceError: logger is not defined
+    at exports.createAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:51:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:28:20 [ERROR]: ReferenceError: logger is not defined
+    at exports.deleteAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:138:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-06 21:33:19 [ERROR]: ReferenceError: logger is not defined
+    at exports.deleteAddon (C:\React-native-projects\New folder (2)\backend\src\controllers\addonController.js:138:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
