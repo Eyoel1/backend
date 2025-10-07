@@ -180,36 +180,44 @@ exports.createOrder = async (req, res, next) => {
     const io = req.app.get("io");
 
     if (io) {
-      // Determine which stations need this order
+      // Filter items by prepStation that we already stored in processedItems
       const kitchenItems = processedItems.filter((item) => {
-        return item.prepStation === "kitchen" && !item.skipKitchen;
+        const isKitchen = item.prepStation === "kitchen" && !item.skipKitchen;
+        if (isKitchen) {
+          console.log(`✓ Item "${item.name.en}" goes to kitchen`);
+        }
+        return isKitchen;
       });
 
       const juiceBarItems = processedItems.filter((item) => {
-        return item.prepStation === "juicebar" && !item.skipKitchen;
+        const isJuiceBar = item.prepStation === "juicebar" && !item.skipKitchen;
+        if (isJuiceBar) {
+          console.log(`✓ Item "${item.name.en}" goes to juice bar`);
+        }
+        return isJuiceBar;
       });
 
-      console.log(`Kitchen items: ${kitchenItems.length}`);
-      console.log(`Juice bar items: ${juiceBarItems.length}`);
+      console.log(`📊 Kitchen items count: ${kitchenItems.length}`);
+      console.log(`📊 Juice bar items count: ${juiceBarItems.length}`);
 
       if (kitchenItems.length > 0) {
-        io.to("kitchen").emit("new-order", {
-          order: {
-            ...order.toObject(),
-            items: kitchenItems,
-          },
-        });
-        console.log(`✅ Sent ${kitchenItems.length} items to kitchen`);
+        const kitchenOrder = {
+          ...order.toObject(),
+          items: kitchenItems,
+        };
+        io.to("kitchen").emit("new-order", { order: kitchenOrder });
+        console.log(`✅ Emitted ${kitchenItems.length} items to kitchen room`);
       }
 
       if (juiceBarItems.length > 0) {
-        io.to("juicebar").emit("new-order", {
-          order: {
-            ...order.toObject(),
-            items: juiceBarItems,
-          },
-        });
-        console.log(`✅ Sent ${juiceBarItems.length} items to juice bar`);
+        const juiceBarOrder = {
+          ...order.toObject(),
+          items: juiceBarItems,
+        };
+        io.to("juicebar").emit("new-order", { order: juiceBarOrder });
+        console.log(
+          `✅ Emitted ${juiceBarItems.length} items to juice bar room`
+        );
       }
 
       // Emit to owner
@@ -219,12 +227,16 @@ exports.createOrder = async (req, res, next) => {
         total: order.grandTotal,
         itemCount: order.items.length,
       });
+      console.log(`✅ Emitted order alert to owner`);
 
       // Emit low stock alerts to owner
       if (lowStockAlerts.length > 0) {
         lowStockAlerts.forEach((alert) => {
           io.to("owner").emit("low-stock-alert", alert);
         });
+        console.log(
+          `✅ Emitted ${lowStockAlerts.length} low stock alerts to owner`
+        );
       }
 
       // Emit success back to waitress
@@ -232,6 +244,9 @@ exports.createOrder = async (req, res, next) => {
         orderId: order._id,
         orderNumber: order.orderNumber,
       });
+      console.log(`✅ Emitted success to waitress`);
+    } else {
+      console.log("⚠️ Socket.IO not available");
     }
 
     logger.info(`Order ${orderNumber} created by ${req.user.username}`);
@@ -626,7 +641,7 @@ exports.getOrdersForStation = async (req, res, next) => {
           const matches = item.prepStation === station && !item.skipKitchen;
           if (matches) {
             console.log(
-              `Order ${order.orderNumber}: Item ${item.name.en} matches ${station}`
+              `✓ Order ${order.orderNumber}: Item "${item.name.en}" matches ${station}`
             );
           }
           return matches;
@@ -645,7 +660,7 @@ exports.getOrdersForStation = async (req, res, next) => {
       })
       .filter((order) => order !== null);
 
-    console.log(`Returning ${filteredOrders.length} orders to ${station}`);
+    console.log(`📊 Returning ${filteredOrders.length} orders to ${station}`);
     console.log("==========================================");
 
     res.status(200).json({
@@ -654,7 +669,7 @@ exports.getOrdersForStation = async (req, res, next) => {
       data: filteredOrders,
     });
   } catch (error) {
-    console.error("Get station orders error:", error);
+    console.error("❌ Get station orders error:", error);
     logger.error("Get station orders error:", error);
     next(error);
   }
