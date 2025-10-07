@@ -21,11 +21,17 @@ const logger = require("../utils/logger");
 exports.createOrder = async (req, res, next) => {
   try {
     console.log("=== CREATE ORDER ===");
+    console.log("Request body:", JSON.stringify(req.body, null, 2));
+
     const { orderType, customerName, customerPhone, items } = req.body;
 
     // Validate items exist and are available
     const itemIds = items.map((item) => item.itemId);
     const menuItems = await MenuItem.find({ _id: { $in: itemIds } });
+
+    console.log(
+      `Found ${menuItems.length} menu items for ${itemIds.length} requested items`
+    );
 
     if (menuItems.length !== itemIds.length) {
       return res.status(400).json({
@@ -57,6 +63,8 @@ exports.createOrder = async (req, res, next) => {
           (m) => m._id.toString() === item.itemId
         );
 
+        console.log(`Processing item: ${menuItem.name.en}`);
+
         // Calculate item subtotal
         const itemSubtotal = item.pricePerUnit * item.quantity;
         const addOnsTotal =
@@ -69,8 +77,8 @@ exports.createOrder = async (req, res, next) => {
 
         // Deduct stock if enabled
         if (
-          menuItem.stockTracking.enabled &&
-          menuItem.stockTracking.deductOnOrder
+          menuItem.stockTracking?.enabled &&
+          menuItem.stockTracking?.deductOnOrder
         ) {
           const previousStock = menuItem.stockTracking.currentStock;
           menuItem.stockTracking.currentStock = Math.max(
@@ -113,6 +121,7 @@ exports.createOrder = async (req, res, next) => {
           );
         }
 
+        // ✅ Return processed item WITHOUT prepStation
         return {
           itemId: item.itemId,
           name: menuItem.name,
@@ -159,7 +168,7 @@ exports.createOrder = async (req, res, next) => {
       graceWindowEndsAt,
     });
 
-    console.log(`Order created: ${orderNumber}`);
+    console.log(`✅ Order created: ${orderNumber}`);
     if (stockDeductions.length > 0) {
       console.log("Stock deductions:", stockDeductions);
     }
@@ -190,6 +199,7 @@ exports.createOrder = async (req, res, next) => {
             items: kitchenItems,
           },
         });
+        console.log(`Sent ${kitchenItems.length} items to kitchen`);
       }
 
       if (juiceBarItems.length > 0) {
@@ -199,6 +209,7 @@ exports.createOrder = async (req, res, next) => {
             items: juiceBarItems,
           },
         });
+        console.log(`Sent ${juiceBarItems.length} items to juice bar`);
       }
 
       // Emit to owner
@@ -233,7 +244,7 @@ exports.createOrder = async (req, res, next) => {
       lowStockAlerts,
     });
   } catch (error) {
-    console.error("Create order error:", error);
+    console.error("❌ Create order error:", error);
     logger.error("Create order error:", error);
     next(error);
   }
